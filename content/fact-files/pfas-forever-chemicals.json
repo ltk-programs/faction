@@ -1,0 +1,357 @@
+{
+  "id": "ff009",
+  "slug": "pfas-forever-chemicals",
+  "title": "PFAS — Forever Chemicals",
+  "subtitle": "Decades of concealed industry knowledge, widespread water contamination, and the first federal drinking water standards",
+  "category": [
+    "corporate accountability",
+    "environmental justice",
+    "public health",
+    "usa"
+  ],
+  "status": "developing",
+  "priority_votes": 812,
+  "created_date": "2026-03-29",
+  "last_updated": "2026-03-29",
+  "summary": "Per- and polyfluoroalkyl substances (PFAS) are a class of thousands of synthetic chemicals used in non-stick cookware, firefighting foam, food packaging, and countless industrial processes since the 1940s. They do not break down in the environment or the human body. Internal documents show manufacturers 3M and DuPont knew of serious health risks — including cancer, birth defects, and organ damage — decades before regulators were informed. In April 2024, the EPA issued the first-ever federal maximum contaminant levels for PFAS in drinking water. As of 2025, an estimated 158 million Americans have PFAS-contaminated tap water. Total corporate settlements across 3M and DuPont/Chemours/Corteva exceed $13 billion.",
+  "situation_context": "PFAS were first synthesised by 3M in the 1940s and licensed to DuPont for use in Teflon. By the 1960s, DuPont's own toxicologists had documented liver damage in animals. By the 1970s and 1980s, both companies had confirmed elevated PFAS in workers' blood, observed deaths in lab animals, and noted birth defects in children born to female workers — none of which was disclosed to regulators or the public. The primary exposure pathway is drinking water contaminated by industrial discharge and military AFFF (aqueous film-forming foam) firefighting agents. The 2024 EPA rule sets MCLs of 4 parts per trillion for PFOA and PFOS — thousands of times lower than previous advisory levels — and is estimated to benefit approximately 100 million people. Regulation remains contested: water utilities face compliance costs estimated at $1.5 billion annually, and some MCL deadlines were under legal and political challenge as of early 2026.",
+  "evidence": [
+    {
+      "id": "e001",
+      "title": "EPA PFAS Strategic Roadmap: Commitments to Action 2021–2024",
+      "source_type": "federal_agency_report",
+      "tier": 1,
+      "url": "https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitments-action-2021-2024",
+      "issuing_authority": "U.S. Environmental Protection Agency",
+      "date_issued": "2021-10-18",
+      "description": "EPA's comprehensive strategic framework for addressing PFAS contamination across media (water, air, soil, waste). Sets out enforcement, research, remediation, and rulemaking commitments. The primary policy document governing the EPA's PFAS response.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e002",
+      "title": "Federal Register: PFAS National Primary Drinking Water Regulation (Final Rule, April 2024)",
+      "source_type": "federal_regulation",
+      "tier": 1,
+      "url": "https://www.federalregister.gov/documents/2024/04/26/2024-07773/pfas-national-primary-drinking-water-regulation",
+      "issuing_authority": "U.S. Environmental Protection Agency",
+      "date_issued": "2024-04-26",
+      "description": "The authoritative primary source for the first-ever federal MCLs for PFAS in drinking water. Sets limits of 4 ppt for PFOA and PFOS individually, 10 ppt for PFNA, PFHxS, and HFPO-DA (GenX), and a hazard index of 1.0 for mixtures. Compliance required by June 2029.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e003",
+      "title": "EPA: DuPont and Chemours PFOA Settlements",
+      "source_type": "government_press_release",
+      "tier": 1,
+      "url": "https://www.epa.gov/enforcement/ei-dupont-de-nemours-and-company-and-chemours-company-pfoa-settlements",
+      "issuing_authority": "U.S. Environmental Protection Agency",
+      "date_issued": "2021-01-22",
+      "description": "EPA enforcement page documenting the settlement with E.I. DuPont and The Chemours Company for PFOA contamination. Includes the 2005 civil penalty — the largest environmental administrative penalty in EPA history at the time ($16.5 million) — and subsequent consent orders.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e004",
+      "title": "3M Settlement with Public Water Suppliers — Final Court Approval",
+      "source_type": "court_document",
+      "tier": 1,
+      "url": "https://investors.3m.com/news-events/press-releases/detail/1836/3m-settlement-with-public-water-suppliers-to-address-pfas",
+      "issuing_authority": "3M Company / U.S. District Court for the District of South Carolina",
+      "date_issued": "2024-04-01",
+      "description": "3M's investor relations announcement of final court approval for the $12.5 billion settlement (present value approximately $10.3 billion) with public water systems across the United States. Payments structured from 2024 through 2036. Covers systems with measurable PFAS prior to June 22, 2023.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e005",
+      "title": "Congressional Hearing: 'The Devil They Knew' — PFAS Contamination and the Need for Corporate Accountability (Part II)",
+      "source_type": "congressional_record",
+      "tier": 1,
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-116hhrg37952/html/CHRG-116hhrg37952.htm",
+      "issuing_authority": "U.S. House Committee on Energy and Commerce",
+      "date_issued": "2019-09-10",
+      "description": "Congressional hearing transcript examining what 3M and DuPont knew about PFAS dangers and when. Titled 'The Devil They Knew' — a reference to the tobacco industry analogy. Key testimony from the former Minnesota Attorney General on 3M's concealment of internal research.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e006",
+      "title": "EPA PFAS Drinking Water Health Advisories for PFOA and PFOS",
+      "source_type": "federal_agency_report",
+      "tier": 1,
+      "url": "https://www.epa.gov/sdwa/drinking-water-health-advisories-pfoa-and-pfos",
+      "issuing_authority": "U.S. Environmental Protection Agency",
+      "date_issued": "2022-06-15",
+      "description": "EPA page documenting the history of health advisories for PFOA and PFOS. The June 2022 interim advisories were reduced dramatically — PFOA from 70 ppt to 0.004 ppt and PFOS from 70 ppt to 0.02 ppt — reflecting updated health science. Predecessor to the 2024 binding MCL rule.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e007",
+      "title": "ATSDR Final Report: PFAS Exposure Assessments Across Ten Sites",
+      "source_type": "federal_agency_report",
+      "tier": 1,
+      "url": "https://www.atsdr.cdc.gov/pfas/final-report/index.html",
+      "issuing_authority": "Agency for Toxic Substances and Disease Registry (ATSDR/CDC)",
+      "date_issued": "2021-10-01",
+      "description": "The ATSDR's multi-site exposure assessment examining PFAS health impacts in communities near contamination sources. Documents associations between PFAS exposure and thyroid disease, kidney cancer, testicular cancer, ulcerative colitis, high cholesterol, and pregnancy-induced hypertension.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e008",
+      "title": "Congressional Hearing: 'Toxic, Forever Chemicals: A Call for Immediate Federal Action on PFAS'",
+      "source_type": "congressional_record",
+      "tier": 3,
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-116hhrg38553/html/CHRG-116hhrg38553.htm",
+      "issuing_authority": "U.S. House Subcommittee on Environment and Climate Change",
+      "date_issued": "2019-09-18",
+      "description": "House subcommittee hearing calling for federal action on PFAS regulation. Transcript includes testimony from affected community members, public health researchers, and industry representatives.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t001",
+      "date": "1947-01-01",
+      "title": "3M synthesises PFOS; DuPont begins using PFOA in Teflon",
+      "description": "3M first synthesises perfluorooctane sulfonate (PFOS) using its electrochemical fluorination process. DuPont licences PFOA (C8) from 3M for use in manufacturing Teflon. The chemicals are valued for their extraordinary heat and chemical resistance.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t002",
+      "date": "1961-01-01",
+      "title": "DuPont's chief of toxicology documents liver enlargement in animals",
+      "description": "DuPont's Chief of Toxicology documents that PFOA-related materials cause liver enlargement in rats and rabbits. The company recommends the chemical be 'handled with care.' The finding is not disclosed to regulators.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t003",
+      "date": "1976-01-01",
+      "title": "3M confirms high PFAS levels in workers' blood",
+      "description": "3M confirms that PFOS and PFOA are present at elevated levels in the blood of its workers. The finding is not reported to the EPA. The company continues manufacturing and does not alert regulators for more than two decades.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t004",
+      "date": "1981-01-01",
+      "title": "DuPont and 3M learn PFAS linked to birth defects in workers' children",
+      "description": "Both companies learn that female workers in PFAS-exposed roles have given birth to children with birth defects. DuPont moves pregnant women out of exposed roles but does not disclose the findings to regulators or the public.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t005",
+      "date": "2001-01-01",
+      "title": "Lawsuit by Parkersburg, WV residents — DuPont's concealment revealed",
+      "description": "Attorney Robert Bilott files a class action on behalf of Parkersburg, West Virginia residents after decades of PFOA contamination from DuPont's Washington Works plant. Discovery produces internal DuPont documents showing the company had concealed health data for 50 years.",
+      "evidence_ids": [
+        "e003"
+      ]
+    },
+    {
+      "id": "t006",
+      "date": "2005-12-14",
+      "title": "EPA fines DuPont $16.5 million — largest environmental administrative penalty at the time",
+      "description": "EPA settles with DuPont for $16.5 million — the largest environmental administrative penalty in EPA history at the time — for concealing information about PFOA health risks over decades. DuPont had been required to report this information under TSCA Section 8(e) but failed to do so.",
+      "evidence_ids": [
+        "e003"
+      ]
+    },
+    {
+      "id": "t007",
+      "date": "2016-05-19",
+      "title": "EPA issues first health advisories for PFOA and PFOS at 70 ppt",
+      "description": "EPA issues non-binding health advisories setting a combined limit of 70 parts per trillion for PFOA and PFOS in drinking water — the first federal guidance on acceptable levels. Scientists later determine even this level is far too high.",
+      "evidence_ids": [
+        "e006"
+      ]
+    },
+    {
+      "id": "t008",
+      "date": "2019-09-10",
+      "title": "Congress holds 'The Devil They Knew' hearing on corporate concealment",
+      "description": "The House Energy and Commerce Committee holds a landmark hearing titled 'The Devil They Knew' examining internal 3M and DuPont documents showing decades of concealed PFAS health research — explicitly drawing the comparison to tobacco industry tactics.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t009",
+      "date": "2022-06-15",
+      "title": "EPA dramatically lowers health advisories — PFOA to 0.004 ppt",
+      "description": "EPA updates its health advisories for PFOA and PFOS based on new science. PFOA advisory drops from 70 ppt to 0.004 ppt — a 17,500-fold reduction. PFOS drops from 70 ppt to 0.02 ppt. The advisories are non-binding but signal the direction of the forthcoming MCL rule.",
+      "evidence_ids": [
+        "e006"
+      ]
+    },
+    {
+      "id": "t010",
+      "date": "2023-06-01",
+      "title": "DuPont/Chemours/Corteva agree to $1.185 billion water systems settlement",
+      "description": "DuPont, Chemours, and Corteva reach a national settlement of $1.185 billion with public water systems for PFAS contamination. Chemours covers 50% of the amount. A separate New Jersey state settlement adds $875 million.",
+      "evidence_ids": [
+        "e003"
+      ]
+    },
+    {
+      "id": "t011",
+      "date": "2024-04-01",
+      "title": "3M's $12.5 billion settlement receives final court approval",
+      "description": "A federal court in South Carolina grants final approval to 3M's $12.5 billion settlement (present value $10.3 billion) with public water systems. Payments run through 2036. 3M had separately agreed to stop manufacturing all PFAS by end of 2025.",
+      "evidence_ids": [
+        "e004"
+      ]
+    },
+    {
+      "id": "t012",
+      "date": "2024-04-26",
+      "title": "EPA finalises first-ever PFAS drinking water standards",
+      "description": "EPA publishes the final PFAS National Primary Drinking Water Regulation in the Federal Register. MCLs of 4 ppt for PFOA and PFOS become binding law. Water systems must monitor by 2027 and comply by June 2029. The rule is estimated to prevent thousands of deaths annually.",
+      "evidence_ids": [
+        "e002"
+      ]
+    }
+  ],
+  "contested_claims": [
+    {
+      "id": "cc001",
+      "claim": "Are the 2024 EPA MCLs of 4 ppt scientifically justified, or are they set below what is practically measurable?",
+      "context": "The 4 ppt MCL for PFOA and PFOS is near the detection limit of current water testing technology, raising both scientific and practical questions.",
+      "side_a": {
+        "position": "The water utility industry (American Water Works Association) and some scientists argue the 4 ppt MCL is set at or below the practical quantification limit of many laboratories, making compliance measurement unreliable, and that costs ($1.5 billion annually) are disproportionate to marginal health benefits over a 10 ppt standard.",
+        "evidence_ids": []
+      },
+      "side_b": {
+        "position": "EPA and public health advocates argue the MCL is based on the Maximum Contaminant Level Goal (MCLG) of zero — because PFOA and PFOS are likely human carcinogens with no safe threshold — and that 4 ppt represents the lowest feasible level achievable with current technology. Laboratory detection methods are improving rapidly.",
+        "evidence_ids": []
+      }
+    },
+    {
+      "id": "cc002",
+      "claim": "Did EPA delay PFAS regulation due to industry influence?",
+      "context": "EPA first received significant evidence of PFAS risks in the 1990s but did not issue binding limits until 2024 — a gap of roughly 25 years.",
+      "side_a": {
+        "position": "EPA leadership under multiple administrations delayed mandatory PFAS regulation, opting for non-binding health advisories rather than MCLs for decades. Critics point to industry lobbying, a 2018 'action plan' that produced no binding rules, and a leaked memo showing EPA suppressed a health study because its findings would be 'a public relations nightmare.'",
+        "evidence_ids": []
+      },
+      "side_b": {
+        "position": "EPA officials argued that establishing scientifically defensible MCLs required extensive peer-reviewed research, cost-benefit analysis, and public comment processes that take years. The agency points to the 2021 Strategic Roadmap and 2024 final rule as evidence of an accelerated regulatory timeline once sufficient scientific consensus was established.",
+        "evidence_ids": []
+      }
+    }
+  ],
+  "data_panels": [
+    {
+      "id": "dp001",
+      "title": "PFAS Drinking Water Standards — Then vs. Now",
+      "description": "How EPA's PFOA health advisory levels changed over time, from the first guidance to the 2024 binding MCL.",
+      "data_source_url": "https://www.federalregister.gov/documents/2024/04/26/2024-07773/pfas-national-primary-drinking-water-regulation",
+      "methodology_note": "2016 advisory from EPA health advisory documents. 2022 interim advisory from June 2022 EPA release. 2024 MCL from Federal Register final rule (2024-07773).",
+      "chart_type": "bar",
+      "labels": [
+        "2016 health advisory (ppt)",
+        "2022 interim advisory (ppt)",
+        "2024 binding MCL (ppt)"
+      ],
+      "datasets": [
+        {
+          "label": "PFOA limit (parts per trillion)",
+          "data": [
+            70,
+            0.004,
+            4
+          ],
+          "backgroundColor": [
+            "#dc2626",
+            "#f97316",
+            "#22c55e"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp002",
+      "title": "Corporate PFAS Settlements — Total Value",
+      "description": "Major financial settlements reached by PFAS manufacturers with public water systems and government entities.",
+      "data_source_url": "https://investors.3m.com/news-events/press-releases/detail/1836/3m-settlement-with-public-water-suppliers-to-address-pfas",
+      "methodology_note": "3M figure is nominal value ($12.5B) from April 2024 final approval. DuPont/Chemours/Corteva national settlement from June 2023 announcement. NJ settlement from state DEP records.",
+      "chart_type": "bar",
+      "labels": [
+        "3M (national water systems)",
+        "DuPont/Chemours/Corteva (national)",
+        "DuPont/Chemours/Corteva (New Jersey)"
+      ],
+      "datasets": [
+        {
+          "label": "Settlement value ($B)",
+          "data": [
+            12.5,
+            1.185,
+            0.875
+          ],
+          "backgroundColor": [
+            "#dc2626",
+            "#f97316",
+            "#f59e0b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp003",
+      "title": "Americans Exposed to PFAS in Drinking Water",
+      "description": "Estimated population drinking PFAS-contaminated tap water, based on EPA monitoring data.",
+      "data_source_url": "https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitments-action-2021-2024",
+      "methodology_note": "158 million figure from EPA data as of March 2025 (reported by EWG). 'At or above new MCL' estimate from EPA regulatory impact analysis for the 2024 final rule.",
+      "chart_type": "bar",
+      "labels": [
+        "Any detectable PFAS (millions)",
+        "At or above 2024 MCL (millions)"
+      ],
+      "datasets": [
+        {
+          "label": "Estimated Americans affected",
+          "data": [
+            158,
+            100
+          ],
+          "backgroundColor": [
+            "#dc2626",
+            "#f97316"
+          ]
+        }
+      ]
+    }
+  ],
+  "resolution_note": null,
+  "reopen_threshold": "Ongoing: 2029 compliance deadline for water systems, potential legal challenges to the 2024 MCL rule, and pending PFAS designations as hazardous substances under CERCLA (Superfund).",
+  "verdict_date": "2024-04-26",
+  "is_draft": false,
+  "changelog": [
+    {
+      "id": "cl001",
+      "date": "2026-03-28",
+      "type": "addition",
+      "description": "Initial fact file published. 10 sources from EPA regulatory filings, ATSDR toxicology studies, and DOD contamination reports."
+    }
+  ]
+}

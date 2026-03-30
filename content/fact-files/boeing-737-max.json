@@ -1,0 +1,359 @@
+{
+  "id": "boeing737max",
+  "slug": "boeing-737-max",
+  "title": "Boeing 737 MAX — MCAS System Failures and the Regulatory Record",
+  "subtitle": "Lion Air 610 and Ethiopian Airlines 302: 346 deaths, the engineering decisions, and the legal outcome",
+  "category": [
+    "aviation",
+    "corporate accountability",
+    "regulation",
+    "usa"
+  ],
+  "status": "developing",
+  "priority_votes": 1,
+  "created_date": "2026-03-28",
+  "last_updated": "2026-03-28",
+  "summary": "The Boeing 737 MAX 8 was involved in two fatal crashes within five months: Lion Air Flight 610 on October 29, 2018 (189 deaths) and Ethiopian Airlines Flight 302 on March 10, 2019 (157 deaths). Both were linked to the Maneuvering Characteristics Augmentation System (MCAS), a flight control software that repeatedly pushed the nose down in response to a single erroneous angle-of-attack sensor reading. Investigators found that MCAS had been significantly expanded in scope during development but that its full characteristics were not disclosed to the FAA's Aircraft Evaluation Group or to pilots. The FAA grounded the 737 MAX on March 13, 2019 — the last major regulator to do so. In January 2021, Boeing entered a Deferred Prosecution Agreement with the DOJ, paying $2.513 billion. Following a January 2024 door plug blowout on an Alaska Airlines 737 MAX 9, the DOJ terminated the DPA and Boeing pleaded guilty to one count of criminal fraud conspiracy in August 2024.",
+  "situation_context": "Boeing developed the 737 MAX as a fuel-efficient upgrade to the 737 NG, certified under an existing type certificate to avoid costly full recertification. MCAS was added to compensate for aerodynamic changes caused by larger, repositioned engines. The system was designed to activate automatically without pilot input. FAA certification relied partly on Boeing's own employees acting as Authorized Representatives under the Organization Designation Authorization program. Two Boeing 737-8 MAX aircraft — PK-LQP (Lion Air, Indonesian registry) and ET-AVJ (Ethiopian Airlines, Ethiopian registry) — crashed 134 days apart, killing 346 people.",
+  "verdict_date": "2021-01-07",
+  "evidence": [
+    {
+      "id": "b001",
+      "title": "KNKT Final Accident Report — Lion Air Flight 610 (PK-LQP), October 29, 2018",
+      "source_type": "investigation_report",
+      "tier": 1,
+      "url": "https://www.aaiu.ie/sites/default/files/FRA/2018%20-%20035%20-%20PK-LQP%20Final%20Report.pdf",
+      "issuing_authority": "Komite Nasional Keselamatan Transportasi (KNKT) — Indonesian National Transportation Safety Committee",
+      "date_issued": "2019-10-25",
+      "description": "Final accident investigation report for Lion Air Flight JT610, Boeing 737-8 MAX registration PK-LQP. The aircraft crashed into the Java Sea 13 minutes after takeoff from Jakarta, killing all 189 on board. The KNKT identified MCAS activation triggered by erroneous angle-of-attack (AOA) sensor data as a primary factor, compounded by incomplete pilot information about the system. Report is 322 pages. Hosted by the Irish Air Accident Investigation Unit as a participating state (state of aircraft design/manufacture).",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "b002",
+      "title": "NTSB Investigation Page — Ethiopian Airlines Flight 302 (ET-AVJ), March 10, 2019",
+      "source_type": "investigation_report",
+      "tier": 1,
+      "url": "https://www.ntsb.gov/investigations/Pages/DCA19RA017-DCA19RA101.aspx",
+      "issuing_authority": "National Transportation Safety Board (NTSB) — U.S. representative in Ethiopian investigation",
+      "date_issued": "2019-03-10",
+      "description": "NTSB investigation docket for Ethiopian Airlines Flight 302, Boeing 737-8 MAX ET-AVJ. The aircraft crashed near Ejere, Ethiopia, 6 minutes after takeoff from Addis Ababa, killing all 157 on board. Investigation led by Ethiopian Civil Aviation Authority (EAIB) with NTSB as state of manufacturer representative. NTSB published detailed comments on the final report in January 2023 noting findings it disagreed with or that were omitted.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "b003",
+      "title": "NTSB Response to Ethiopian Airlines Flight 302 Final Accident Report (January 2023)",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.ntsb.gov/investigations/Documents/Response%20to%20EAIB%20final%20report.pdf",
+      "issuing_authority": "National Transportation Safety Board (NTSB)",
+      "date_issued": "2023-01-24",
+      "description": "NTSB formal response to the Ethiopian Aircraft Accident Investigation Bureau (EAIB) final report. Documents NTSB's agreement and disagreements with the EAIB's findings, including the determination that Boeing had made an engineering design error in the initial AOA Sensor Hazard Analysis and that this error was not disclosed to the FAA during certification.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "b004",
+      "title": "FAA Emergency Order of Prohibition — Boeing 737 MAX Grounding (March 13, 2019)",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.faa.gov/newsroom/faa-updates-boeing-737-max-0",
+      "issuing_authority": "Federal Aviation Administration (FAA)",
+      "date_issued": "2019-03-13",
+      "description": "FAA official updates page documenting the March 13, 2019 Emergency Order of Prohibition that grounded all Boeing 737-8 and 737-9 MAX aircraft operated by U.S. airlines or in U.S. territory. The FAA was the last major aviation regulator to issue a grounding order — China grounded the type on March 11, 2019, and most European regulators acted on March 12. Page includes the full chronology of FAA actions from grounding through return to service.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "b005",
+      "title": "FAA FOIA Electronic Reading Room — Boeing 737 MAX Documents",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.faa.gov/foia/electronic_reading_room/boeing_reading_room",
+      "issuing_authority": "Federal Aviation Administration (FAA)",
+      "date_issued": "2020-01-01",
+      "description": "FAA public repository of documents released under FOIA and congressional requests relating to the Boeing 737 MAX program, including certification records, internal communications, and correspondence with Boeing. Contains the Boeing employee internal messages released to Congress in January 2020, including messages describing the aircraft as 'designed by clowns who are supervised by monkeys' and describing efforts to conceal simulator training requirements from the FAA.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "b006",
+      "title": "Senate Commerce Committee Report — 'The Design, Development and Certification of the Boeing 737 MAX' (December 2020)",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.commerce.senate.gov/2020/12/wicker-releases-committee-s-faa-investigation-report",
+      "issuing_authority": "U.S. Senate Committee on Commerce, Science, and Transportation",
+      "date_issued": "2020-12-11",
+      "description": "18-month bipartisan investigation by the Senate Commerce Committee. Based on disclosures from over 50 whistleblowers, 15,000+ pages of documents, and FAA staff interviews. Found that Boeing inappropriately influenced FAA simulator testing of pilot reaction times; that FAA engineers who raised safety concerns were sidelined; and that the FAA's delegation of certification authority to Boeing employees created systemic oversight failures. The report led directly to the Aircraft Certification, Safety, and Accountability Act (2020).",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "b007",
+      "title": "DOJ Deferred Prosecution Agreement — United States v. The Boeing Company (January 7, 2021)",
+      "source_type": "court_filing",
+      "tier": 1,
+      "url": "https://www.justice.gov/criminal/criminal-fraud/case/united-states-v-boeing-company",
+      "issuing_authority": "U.S. Department of Justice — Northern District of Texas",
+      "date_issued": "2021-01-07",
+      "description": "DOJ case page for the deferred prosecution agreement in which Boeing was charged with one count of conspiracy to defraud the United States. Boeing agreed to pay $2.513 billion: $243.6M criminal penalty, $1.77B in compensation to airline customers, and $500M to crash victims and their families. The DPA required Boeing to implement compliance reforms under independent monitor oversight. In May 2024, the DOJ determined Boeing had breached the DPA; Boeing subsequently pleaded guilty to one count of criminal fraud conspiracy in August 2024.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "b008",
+      "title": "DOJ Press Release — Boeing Charged with 737 MAX Fraud Conspiracy (January 7, 2021)",
+      "source_type": "official_statement",
+      "tier": 1,
+      "url": "https://www.justice.gov/archives/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion",
+      "issuing_authority": "U.S. Department of Justice — Office of Public Affairs",
+      "date_issued": "2021-01-07",
+      "description": "Official DOJ press release announcing the criminal charge and DPA. States that two Boeing 737 MAX Flight Technical Pilots deceived the FAA Aircraft Evaluation Group about MCAS's actual operating characteristics — specifically that they removed a reference to MCAS from a key pilot document, preventing the FAA from requiring simulator training for the system. Includes the full breakdown of the $2.513B financial resolution.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "b009",
+      "title": "FAA Summary of Return-to-Service Review — Boeing 737 MAX (2020)",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.faa.gov/sites/faa.gov/files/2022-08/737_RTS_Summary.pdf",
+      "issuing_authority": "Federal Aviation Administration (FAA)",
+      "date_issued": "2020-11-18",
+      "description": "FAA's detailed summary of the 20-month technical review process that led to the November 18, 2020 airworthiness directive rescinding the grounding. Documents the four required design changes: new MCAS flight control software (single-sensor input limitation, angle and authority limits), updated AOA disagree cockpit alert, revised Airplane Flight Manual procedures, and horizontal stabilizer trim wire rerouting.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "b010",
+      "title": "FAA Boeing 737 MAX Official Timeline (Updated 2022)",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.faa.gov/sites/faa.gov/files/2022-08/737_MAX_Timeline.pdf",
+      "issuing_authority": "Federal Aviation Administration (FAA)",
+      "date_issued": "2022-08-01",
+      "description": "FAA's official chronological record of all significant events in the Boeing 737 MAX program from initial certification through 2022, including crash dates, grounding order, airworthiness directives, congressional hearings, return to service, and subsequent safety actions. Produced as a public reference document.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t001",
+      "date": "2016-06-08",
+      "title": "Boeing pilot sends internal 'designed by clowns' message",
+      "description": "A Boeing 737 MAX Flight Technical Pilot sends an internal message stating 'This airplane is designed by clowns, who in turn are supervised by monkeys.' The message was part of a series of internal communications later released to Congress in January 2020. In a separate 2016 message, the same pilot noted he had 'basically lied to the regulators (unknowingly)' about the need for MCAS simulator training.",
+      "evidence_ids": [
+        "b005"
+      ]
+    },
+    {
+      "id": "t002",
+      "date": "2018-10-29",
+      "title": "Lion Air Flight 610 crashes — 189 deaths",
+      "description": "Boeing 737-8 MAX PK-LQP departs Jakarta (CGK) bound for Pangkal Pinang (PGK). MCAS activates repeatedly in response to erroneous AOA sensor data, forcing the nose down. The crew is unable to overcome the system. The aircraft enters the Java Sea 13 minutes after takeoff. All 181 passengers and 8 crew are killed. It is the deadliest crash in Indonesian aviation history.",
+      "evidence_ids": [
+        "b001"
+      ]
+    },
+    {
+      "id": "t003",
+      "date": "2018-11-07",
+      "title": "FAA issues emergency airworthiness directive — does not ground aircraft",
+      "description": "Following Lion Air 610, the FAA issues an emergency AD requiring airlines to update 737 MAX flight manuals to instruct pilots on how to respond to erroneous MCAS activation. The AD does not ground the aircraft. Boeing issues a multi-operator message. Critics later note the response assumed pilots would be able to identify and respond to MCAS failure — a conclusion investigators would find was not supported by available data.",
+      "evidence_ids": [
+        "b004"
+      ]
+    },
+    {
+      "id": "t004",
+      "date": "2019-03-10",
+      "title": "Ethiopian Airlines Flight 302 crashes — 157 deaths",
+      "description": "Boeing 737-8 MAX ET-AVJ departs Addis Ababa (ADD) bound for Nairobi (NBO). Within 5 minutes, MCAS activates based on a faulty AOA sensor. The crew follows the FAA-mandated runaway stabilizer procedure and disables the electric trim. Unable to manually trim against the aerodynamic forces at speed, they re-enable electric trim; MCAS activates again. The aircraft impacts terrain 6 minutes after takeoff. All 149 passengers and 8 crew are killed. Nationalities from 35 countries.",
+      "evidence_ids": [
+        "b002",
+        "b003"
+      ]
+    },
+    {
+      "id": "t005",
+      "date": "2019-03-13",
+      "title": "FAA grounds all 737 MAX — last major regulator to act",
+      "description": "Following the Ethiopian crash, the FAA issues an Emergency Order of Prohibition grounding all Boeing 737-8 and 737-9 MAX aircraft in U.S. operations. China's CAAC grounded the type on March 11; most European, Australian, and Canadian regulators acted March 12. The FAA's delayed action drew congressional scrutiny. Approximately 387 aircraft are grounded worldwide.",
+      "evidence_ids": [
+        "b004"
+      ]
+    },
+    {
+      "id": "t006",
+      "date": "2019-12-23",
+      "title": "Boeing CEO Dennis Muilenburg fired",
+      "description": "Boeing's board removes President and CEO Dennis Muilenburg, citing a loss of confidence in his ability to restore trust with regulators, customers, and stakeholders. David Calhoun is appointed CEO effective January 13, 2020. Under Muilenburg, Boeing had continued to argue the 737 MAX could return to service quickly, a position that proved inaccurate.",
+      "evidence_ids": []
+    },
+    {
+      "id": "t007",
+      "date": "2020-01-09",
+      "title": "Boeing releases 100+ pages of internal messages to Congress",
+      "description": "Boeing submits over 100 pages of internal employee communications to congressional committees investigating the crashes. The documents include messages mocking the FAA, describing the 737 MAX as 'designed by clowns,' and describing efforts to avoid MCAS simulator training requirements to cut costs for airline customers. The House Transportation Committee chair calls the messages 'incredibly damning.'",
+      "evidence_ids": [
+        "b005"
+      ]
+    },
+    {
+      "id": "t008",
+      "date": "2020-11-18",
+      "title": "FAA lifts U.S. grounding — issues return-to-service airworthiness directive",
+      "description": "After a 20-month review, FAA Administrator Steve Dickson signs the airworthiness directive rescinding the March 2019 grounding order. Four required modifications must be completed before any aircraft returns to service: updated MCAS software (now uses both AOA sensors, with authority limits), new AOA disagree cockpit alert, revised flight manual procedures, and trim wire rerouting. EASA lifts its grounding in January 2021; China's CAAC in December 2021.",
+      "evidence_ids": [
+        "b004",
+        "b009"
+      ]
+    },
+    {
+      "id": "t009",
+      "date": "2020-12-11",
+      "title": "Senate Commerce Committee releases 18-month investigation report",
+      "description": "Chairman Roger Wicker releases the committee's final report after 18 months of investigation. Key findings: Boeing concealed MCAS's full operational characteristics from the FAA; FAA engineers who raised safety concerns were sidelined; Boeing used its Authorized Representative designation to act as its own regulator; and the FAA human factors simulator testing of pilot reaction times was improperly influenced by Boeing. Leads directly to the Aircraft Certification, Safety, and Accountability Act.",
+      "evidence_ids": [
+        "b006"
+      ]
+    },
+    {
+      "id": "t010",
+      "date": "2021-01-07",
+      "title": "DOJ deferred prosecution agreement signed — Boeing pays $2.513 billion",
+      "description": "Boeing enters a three-year deferred prosecution agreement with the DOJ on one count of conspiracy to defraud the United States. Total financial resolution: $243.6M criminal penalty, $1.77B to airline customers, $500M to crash victim families. The DPA's Statement of Facts formally establishes that two Boeing pilots deceived the FAA about MCAS — removing references to the system from a key document used in the certification process.",
+      "evidence_ids": [
+        "b007",
+        "b008"
+      ]
+    },
+    {
+      "id": "t011",
+      "date": "2024-01-05",
+      "title": "Alaska Airlines door plug blows out — 737 MAX 9 grounded",
+      "description": "A door plug on Alaska Airlines Flight 1282, a Boeing 737-9 MAX, blows out at 16,000 feet shortly after takeoff from Portland, Oregon. No fatalities; one passenger seriously injured. The FAA grounds the 737-9 MAX for inspection. Four bolts securing the plug are found to be missing. The incident triggers a new DOJ criminal investigation and congressional hearings focused on Boeing's quality control. In May 2024, the DOJ determines Boeing breached its 2021 DPA.",
+      "evidence_ids": []
+    },
+    {
+      "id": "t012",
+      "date": "2024-08-01",
+      "title": "Boeing pleads guilty to criminal fraud — DPA terminated",
+      "description": "Following the DOJ's determination that Boeing breached the 2021 DPA, Boeing pleads guilty to one count of conspiracy to defraud the United States in connection with the 737 MAX fraud. This makes Boeing a convicted felon. Sentencing is scheduled for late 2024. The guilty plea is the legal conclusion of the criminal case that began with the two crashes in 2018 and 2019.",
+      "evidence_ids": [
+        "b007"
+      ]
+    }
+  ],
+  "contested_claims": [],
+  "data_panels": [
+    {
+      "id": "dp001",
+      "title": "Crash Summary",
+      "description": "The two crashes that triggered the global 737 MAX grounding, their dates, and total fatalities.",
+      "data_source_url": "https://www.ntsb.gov/investigations/Pages/DCA19RA017-DCA19RA101.aspx",
+      "methodology_note": "Fatality figures are from official investigation reports: 189 (Lion Air 610, KNKT final report, Oct 2019) and 157 (Ethiopian Airlines 302, EAIB final report). No survivors in either crash. Combined total: 346.",
+      "chart_type": "table",
+      "labels": [
+        "Flight",
+        "Date",
+        "Route",
+        "Aircraft Reg.",
+        "Fatalities"
+      ],
+      "datasets": [
+        {
+          "label": "Lion Air 610",
+          "data": [
+            610,
+            20181029,
+            0,
+            0,
+            189
+          ]
+        },
+        {
+          "label": "Ethiopian Airlines 302",
+          "data": [
+            302,
+            20190310,
+            0,
+            0,
+            157
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp002",
+      "title": "DOJ $2.513B Settlement Breakdown",
+      "description": "How the January 2021 Deferred Prosecution Agreement financial resolution was divided between three categories of payment.",
+      "data_source_url": "https://www.justice.gov/archives/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion",
+      "methodology_note": "Figures are from the DOJ press release and DPA document (January 7, 2021). All values in USD millions. Airline customer compensation ($1,770M) was paid to carriers that suffered financial loss from the grounding. Crash victim fund ($500M) was directed to the families of those killed. Criminal monetary penalty ($243.6M) was paid to the U.S. government. Total: $2,513.6M.",
+      "chart_type": "bar",
+      "labels": [
+        "Airline customers",
+        "Crash victim fund",
+        "Criminal penalty"
+      ],
+      "datasets": [
+        {
+          "label": "USD (millions)",
+          "data": [
+            1770,
+            500,
+            244
+          ],
+          "color": "#2A7DE1"
+        }
+      ]
+    },
+    {
+      "id": "dp003",
+      "title": "737 MAX Grounding Duration by Regulator",
+      "description": "How long each major aviation authority kept the 737 MAX grounded, from March 2019 to the date each authority issued its return-to-service airworthiness directive.",
+      "data_source_url": "https://www.faa.gov/sites/faa.gov/files/2022-08/737_MAX_Timeline.pdf",
+      "methodology_note": "Grounding start dates: CAAC (China) March 11 2019, EASA (EU) March 12 2019, FAA (US) March 13 2019. Return-to-service dates: FAA November 18 2020 (~20 months), EASA January 27 2021 (~22 months), CAAC December 2 2021 (~33 months). Figures are approximate calendar months rounded to nearest whole month. Source: FAA official 737 MAX timeline PDF (2022).",
+      "chart_type": "bar",
+      "labels": [
+        "FAA (USA)",
+        "EASA (EU)",
+        "CAAC (China)"
+      ],
+      "datasets": [
+        {
+          "label": "Months grounded",
+          "data": [
+            20,
+            22,
+            33
+          ],
+          "color": "#DC2626"
+        }
+      ]
+    }
+  ],
+  "reopen_threshold": "New primary-source evidence establishing additional undisclosed safety defects in the certified 737 MAX design, or DOJ sentencing documents establishing findings beyond those in the August 2024 guilty plea.",
+  "resolution_note": "Boeing pleaded guilty to one count of conspiracy to defraud the United States in August 2024 following the termination of the January 2021 DPA. The 737 MAX remains in commercial service subject to FAA oversight under the November 2020 return-to-service airworthiness directive. The Alaska Airlines door plug investigation (January 2024) is handled separately by the FAA and NTSB.",
+  "is_draft": false,
+  "changelog": [
+    {
+      "id": "cl001",
+      "date": "2026-03-28",
+      "type": "addition",
+      "description": "Initial fact file published. 13 sources from NTSB accident reports, FAA grounding orders, and Senate Commerce Committee investigation."
+    }
+  ]
+}

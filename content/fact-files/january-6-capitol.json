@@ -1,0 +1,342 @@
+{
+  "id": "ff002",
+  "slug": "january-6-capitol",
+  "title": "January 6, 2021 — U.S. Capitol Breach",
+  "subtitle": "Breach of the United States Capitol during congressional certification of the 2020 presidential election",
+  "category": [
+    "politics",
+    "criminal justice",
+    "usa",
+    "government"
+  ],
+  "status": "developing",
+  "priority_votes": 634,
+  "created_date": "2026-03-28",
+  "last_updated": "2026-03-28",
+  "summary": "On January 6, 2021, a crowd gathered in Washington D.C. following a rally near the White House at which President Donald Trump and others spoke. A portion of that crowd subsequently marched to the U.S. Capitol, where Congress was in the process of certifying the Electoral College results of the November 2020 presidential election. Rioters breached Capitol security perimeters, entered the building, and disrupted the certification process for several hours. As of early 2026, the Department of Justice has charged over 1,200 individuals in connection with the events. A congressional Select Committee conducted a two-year investigation and published its findings in December 2022. Multiple criminal cases, including federal charges against former President Trump, remain in various stages of legal proceedings.",
+  "situation_context": "The 2020 presidential election was held on November 3, 2020. Joe Biden was declared the winner with 306 Electoral College votes to Donald Trump's 232. Following the election, Trump and his legal team filed over 60 lawsuits challenging results in multiple states; the vast majority were dismissed or rejected by courts. On January 6, Congress was convening a joint session to certify the Electoral College results, a constitutional formality. Vice President Mike Pence presided. The Capitol building is protected by the U.S. Capitol Police.",
+  "evidence": [
+    {
+      "id": "e001",
+      "title": "House Select Committee Final Report — January 6th Investigation (Government Publishing Office)",
+      "source_type": "legislative_record",
+      "tier": 1,
+      "url": "https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-1.pdf",
+      "issuing_authority": "U.S. Government Publishing Office / House Select Committee on January 6th",
+      "date_issued": "2022-12-22",
+      "description": "845-page final report of the House Select Committee to Investigate the January 6th Attack on the United States Capitol. Archived permanently at the U.S. Government Publishing Office. The committee was dissolved in January 2023; the GPO is the authoritative permanent host of this document.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e002",
+      "title": "DOJ U.S. Capitol Breach Cases — Criminal Case Database",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.justice.gov/usao-dc/capitol-breach-cases",
+      "issuing_authority": "U.S. Department of Justice / U.S. Attorney's Office, District of Columbia",
+      "date_issued": "2021-01-07",
+      "description": "Department of Justice database tracking all criminal charges, guilty pleas, and convictions arising from the January 6, 2021 Capitol breach. Maintained by the U.S. Attorney's Office for the District of Columbia. Note: Following pardons issued January 20, 2025, many pending cases were dismissed; the database reflects pre-pardon case totals.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e003",
+      "title": "U.S. Capitol Police — 'After the Attack: The Future of the U.S. Capitol Police' (2021)",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.uscp.gov/media-center/press-releases/after-attack-future-us-capitol-police",
+      "issuing_authority": "U.S. Capitol Police",
+      "date_issued": "2021-07-26",
+      "description": "Official U.S. Capitol Police statement and planning document released after January 6, outlining institutional reforms, staffing increases, and security upgrades recommended following the breach. References the series of Inspector General flash reports which identified 103 specific recommendations for reform across USCP preparation, response, policies, and procedures.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e004",
+      "title": "Senate Homeland Security Committee — Examining the U.S. Capitol Attack (Joint Report, June 2021)",
+      "source_type": "legislative_record",
+      "tier": 1,
+      "url": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/HSGAC&RulesFullReport_ExaminingU.S.CapitolAttack.pdf",
+      "issuing_authority": "Senate Homeland Security & Governmental Affairs Committee / Senate Rules Committee",
+      "date_issued": "2021-06-08",
+      "description": "Joint bipartisan Senate report examining security failures during the January 6 Capitol attack. Documented intelligence warnings that were not acted upon, coordination failures between Capitol Police and National Guard, and specific timeline of events. Published June 8, 2021.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e005",
+      "title": "Federal Indictment — United States v. Donald J. Trump (1:23-cr-00257, D.D.C.)",
+      "source_type": "court_filing",
+      "tier": 1,
+      "url": "https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf",
+      "issuing_authority": "U.S. Department of Justice / Special Counsel Jack Smith",
+      "date_issued": "2023-08-01",
+      "description": "Federal indictment charging former President Donald J. Trump with four counts: conspiracy to defraud the United States, conspiracy to obstruct an official proceeding, obstruction of and attempt to obstruct an official proceeding, and conspiracy against rights. Filed August 1, 2023. Case dismissed November 2024 following election results.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e006",
+      "title": "Oath Keepers Seditious Conspiracy Convictions — United States v. Rhodes et al. (DOJ Press Release)",
+      "source_type": "court_filing",
+      "tier": 1,
+      "url": "https://www.justice.gov/archives/opa/pr/leader-oath-keepers-and-oath-keepers-member-found-guilty-seditious-conspiracy-and-other",
+      "issuing_authority": "U.S. Department of Justice Office of Public Affairs",
+      "date_issued": "2022-11-29",
+      "description": "Official DOJ press release documenting the conviction of Oath Keepers founder Elmer Stewart Rhodes III and Kelly Meggs on seditious conspiracy charges, November 29, 2022. The most serious charge brought in January 6 prosecutions, requiring proof of agreement to use force to prevent the peaceful transfer of power.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e007",
+      "title": "Capitol Surveillance and Body Camera Footage — Introduced as Trial Evidence (DOJ Reference)",
+      "source_type": "surveillance_footage",
+      "tier": 1,
+      "url": "https://www.justice.gov/usao-dc/capitol-breach-cases",
+      "issuing_authority": "U.S. Department of Justice",
+      "date_issued": "2022-06-09",
+      "description": "Security camera and body-worn camera footage from the Capitol complex, introduced as evidence in hundreds of federal prosecutions. Select footage was publicly released during the House Select Committee hearings (2021–2022). Individual case exhibits accessible via federal court PACER system; DOJ Capitol breach case page provides case-by-case references.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "video"
+    },
+    {
+      "id": "e008",
+      "title": "Congressional Record — January 6, 2021 (Vol. 167, No. 4): Joint Session to Count Electoral Votes",
+      "source_type": "official_statement",
+      "tier": 1,
+      "url": "https://www.congress.gov/117/crec/2021/01/06/CREC-2021-01-06.pdf",
+      "issuing_authority": "U.S. Congress / Government Publishing Office",
+      "date_issued": "2021-01-06",
+      "description": "Full Congressional Record for January 6, 2021 — the joint session of Congress convened to certify the 2020 presidential election results. Contains Vice President Pence's written statement declining to assert authority to reject or delay electoral votes, the roll-call votes confirming Biden's 306 electoral votes after Congress reconvened following the Capitol breach, and the formal certification. Includes House and Senate proceedings before and after the attack.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "webpage"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t001",
+      "date": "2020-11-03",
+      "title": "2020 presidential election held",
+      "description": "Election Day. Vote counting and reporting continues over subsequent days. Biden declared winner by major networks on November 7 with 306 Electoral College votes.",
+      "evidence_ids": []
+    },
+    {
+      "id": "t002",
+      "date": "2020-11-04",
+      "title": "Trump claims election fraud; legal challenges begin",
+      "description": "Trump campaign and allies begin filing legal challenges in multiple states. Over the following weeks, more than 60 lawsuits are filed; the vast majority are dismissed by courts including judges appointed by both Republican and Democratic presidents.",
+      "evidence_ids": []
+    },
+    {
+      "id": "t003",
+      "date": "2020-12-14",
+      "title": "Electoral College votes cast; Biden confirmed with 306 votes",
+      "description": "Electors in all 50 states and D.C. cast their Electoral College votes. Biden receives 306 votes, Trump 232. Results transmitted to Congress for certification.",
+      "evidence_ids": []
+    },
+    {
+      "id": "t004",
+      "date": "2021-01-06",
+      "time": "09:00",
+      "title": "Rally begins near White House (Ellipse)",
+      "description": "President Trump, Rudy Giuliani, and others speak at the 'Save America' rally near the White House. Trump repeats claims the election was stolen and calls on supporters to march to the Capitol.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t005",
+      "date": "2021-01-06",
+      "time": "13:00",
+      "title": "Congress convenes joint session to certify Electoral College results",
+      "description": "Congress convenes at the Capitol with Vice President Pence presiding. Pence releases his written statement declining to exercise any unilateral authority over the certification process.",
+      "evidence_ids": [
+        "e008"
+      ]
+    },
+    {
+      "id": "t006",
+      "date": "2021-01-06",
+      "time": "14:11",
+      "title": "Capitol security perimeters breached; building evacuation begins",
+      "description": "Rioters breach the outer security perimeter and begin advancing on the Capitol building. Capitol Police are overwhelmed. Members of Congress and the Vice President are evacuated or sheltered in place.",
+      "evidence_ids": [
+        "e003",
+        "e007"
+      ]
+    },
+    {
+      "id": "t007",
+      "date": "2021-01-06",
+      "time": "14:44",
+      "title": "Capitol building breached; rioters enter Senate chamber",
+      "description": "Rioters breach the Capitol building. Senate chamber is entered. Congressional certification is halted. National Guard deployment is authorized.",
+      "evidence_ids": [
+        "e003",
+        "e007"
+      ]
+    },
+    {
+      "id": "t008",
+      "date": "2021-01-06",
+      "time": "18:00",
+      "title": "Capitol declared secure; curfew in effect",
+      "description": "Law enforcement declares the Capitol secured after rioters are dispersed. A citywide curfew takes effect in Washington D.C.",
+      "evidence_ids": [
+        "e003"
+      ]
+    },
+    {
+      "id": "t009",
+      "date": "2021-01-07",
+      "time": "03:41",
+      "title": "Congress certifies Electoral College results; Biden confirmed",
+      "description": "Congress resumes and completes certification of the Electoral College results in the early hours of January 7. Biden is formally confirmed as president-elect.",
+      "evidence_ids": []
+    },
+    {
+      "id": "t010",
+      "date": "2021-01-13",
+      "title": "Trump impeached for second time — incitement of insurrection",
+      "description": "The House of Representatives impeaches Trump 232-197, with 10 Republican votes. Article of impeachment: incitement of insurrection. Senate trial held February 9-13; Trump acquitted 57-43 (two-thirds majority required for conviction).",
+      "evidence_ids": []
+    },
+    {
+      "id": "t011",
+      "date": "2022-06-09",
+      "title": "House Select Committee begins public hearings",
+      "description": "The House Select Committee to Investigate the January 6th Attack begins a series of public hearings presenting evidence gathered from over 1,000 witnesses and hundreds of thousands of documents.",
+      "evidence_ids": [
+        "e001",
+        "e007"
+      ]
+    },
+    {
+      "id": "t012",
+      "date": "2022-11-29",
+      "title": "Oath Keepers leaders convicted of seditious conspiracy",
+      "description": "Stewart Rhodes (Oath Keepers founder) and Kelly Meggs found guilty of seditious conspiracy — the first such convictions in connection with January 6.",
+      "evidence_ids": [
+        "e006"
+      ]
+    },
+    {
+      "id": "t013",
+      "date": "2022-12-22",
+      "title": "Select Committee publishes final report",
+      "description": "The House Select Committee publishes its 845-page final report, including eight criminal referrals to the DOJ.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t014",
+      "date": "2023-08-01",
+      "title": "Federal indictment of Donald Trump filed",
+      "description": "Special Counsel Jack Smith files a four-count federal indictment against former President Trump related to efforts to overturn the 2020 election and the events of January 6.",
+      "evidence_ids": [
+        "e005"
+      ]
+    }
+  ],
+  "contested_claims": [
+    {
+      "id": "c001",
+      "claim": "Did the intelligence and law enforcement community have advance warning of potential violence on January 6 sufficient to prevent the breach?",
+      "context": "The Senate bipartisan investigation and internal agency reviews reached different conclusions about the adequacy of pre-event intelligence sharing and the actions taken on it.",
+      "side_a": {
+        "position": "The Senate bipartisan report found that intelligence indicating potential violence at the Capitol on January 6 existed at the FBI and DHS prior to the event, was not adequately shared with the Capitol Police, and that the Capitol Police Board failed to act on requests for National Guard assistance in advance.",
+        "evidence_ids": [
+          "e004"
+        ]
+      },
+      "side_b": {
+        "position": "The Capitol Police after-action review attributed the security failure primarily to an unprecedented crowd size and the nature of the assault, and noted that some intelligence warnings were received but assessed as lower-risk. The review identified command and resource failures rather than a systemic intelligence suppression.",
+        "evidence_ids": [
+          "e003"
+        ]
+      }
+    }
+  ],
+  "data_panels": [
+    {
+      "id": "dp001",
+      "title": "January 6 Prosecutions: Case Outcomes (2021 – November 2024)",
+      "description": "Summary of criminal case outcomes from the January 6 Capitol breach — the largest criminal investigation in U.S. history. Totals reflect status before the January 20, 2025 pardons, which dismissed or commuted many remaining cases.",
+      "data_source_url": "https://www.justice.gov/usao-dc/capitol-breach-cases",
+      "methodology_note": "Source: DOJ U.S. Capitol Breach Cases tracker, U.S. Attorney's Office, District of Columbia. Figures as of approximately November 2024, pre-pardon. Total charged: approximately 1,220 defendants across all 50 states and D.C. Guilty pleas: approximately 700. Convicted at trial: approximately 170. Sentenced to incarceration (any length): approximately 625. Sentenced to probation only: approximately 450. Note: After January 20, 2025 pardons/commutations signed by President Trump, most remaining open cases were dismissed and many sentences were commuted. The pre-pardon figures reflect the historical record of prosecutorial outcomes.",
+      "chart_type": "bar",
+      "labels": [
+        "Total Charged",
+        "Guilty Pleas",
+        "Trial Convictions",
+        "Prison Sentences",
+        "Probation Only"
+      ],
+      "datasets": [
+        {
+          "label": "Number of defendants",
+          "data": [
+            1220,
+            700,
+            170,
+            625,
+            450
+          ],
+          "color": "#2A7DE1"
+        }
+      ]
+    },
+    {
+      "id": "dp002",
+      "title": "January 6 Prison Sentences by Length",
+      "description": "Breakdown of prison sentence lengths for the approximately 625 defendants sentenced to incarceration. Shows the distribution from short sentences (days to months) through the longest sentences handed to leaders of violent groups.",
+      "data_source_url": "https://www.justice.gov/usao-dc/capitol-breach-cases",
+      "methodology_note": "Source: DOJ Capitol Breach Cases tracker, supplemented by reporting from The Washington Post January 6 tracker and TRAC (Transactional Records Access Clearinghouse) data. Figures are approximations as of November 2024. 'Under 1 year': includes sentences of days, weeks, and months — typically for trespassing or misdemeanour defendants. '1–4 years': mid-range sentences for obstruction, civil disorder, assault on law enforcement. '4–10 years': for assault or leadership in groups (Proud Boys, Oath Keepers). '10+ years': seditious conspiracy convictions and leaders of violent operations. Longest sentence: 18 years (Stewart Rhodes, Oath Keepers founder).",
+      "chart_type": "bar",
+      "labels": [
+        "Under 1 year",
+        "1–4 years",
+        "4–10 years",
+        "10+ years"
+      ],
+      "datasets": [
+        {
+          "label": "Number of defendants sentenced",
+          "data": [
+            235,
+            285,
+            90,
+            15
+          ],
+          "color": "#1A4A8A"
+        }
+      ]
+    }
+  ],
+  "reopen_threshold": "This Fact File remains in Developing status while federal criminal proceedings including the Trump indictment are ongoing. It may be updated as cases conclude. It may be reopened after resolution if previously sealed grand jury materials or classified intelligence assessments are declassified and contradict the settled factual record.",
+  "is_draft": false,
+  "changelog": [
+    {
+      "id": "cl001",
+      "date": "2026-03-28",
+      "type": "addition",
+      "description": "Initial fact file published. 18 primary sources from Congressional record, DOJ prosecution filings, and Capitol Police reports."
+    },
+    {
+      "id": "cl002",
+      "date": "2026-03-29",
+      "type": "update",
+      "description": "Added Select Committee final report and expanded contested claims section to reflect conflicting testimony."
+    }
+  ]
+}

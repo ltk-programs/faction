@@ -1,0 +1,266 @@
+{
+  "id": "ff003",
+  "slug": "tyre-nichols",
+  "title": "Tyre Nichols — Memphis, January 2023",
+  "subtitle": "Death of Tyre Nichols following traffic stop and use of force by Memphis Police Department officers",
+  "category": [
+    "policing",
+    "criminal justice",
+    "usa"
+  ],
+  "status": "resolved",
+  "priority_votes": 513,
+  "created_date": "2026-03-28",
+  "last_updated": "2026-03-28",
+  "summary": "On January 7, 2023, Tyre Nichols, a 29-year-old Black man, was stopped by Memphis Police Department officers in Memphis, Tennessee. During the stop, officers physically restrained and struck Nichols on multiple occasions. Nichols fled on foot and was apprehended a short distance away, where he was subjected to further use of force. Nichols was hospitalised in critical condition and died on January 10, 2023. The Memphis PD released body camera and pole camera footage publicly on January 27, 2023. Five MPD officers were dismissed on January 20 and subsequently charged with second-degree murder and additional offences. All five pleaded guilty to federal civil rights charges in September 2023. The Tennessee Bureau of Investigation conducted an independent criminal investigation. The independent autopsy listed the cause of death as blunt force injuries.",
+  "situation_context": "Tyre Nichols was stopped by officers of the Memphis Police Department's SCORPION unit (Street Crimes Operations to Restore Peace in Our Neighborhoods), a specialised unit that was subsequently disbanded on January 18, 2023 following the release of the footage. Nichols was stopped near his home. He was unarmed. The officers involved were all Black; the incident was widely covered in the context of ongoing national debates about police reform. Memphis Mayor Paul Young and Police Chief Cerelyn Davis requested the Tennessee Bureau of Investigation conduct an independent investigation.",
+  "evidence": [
+    {
+      "id": "e001",
+      "title": "Memphis Police Department Body Camera and Pole Camera Footage Release — January 27, 2023",
+      "source_type": "body_cam_footage",
+      "tier": 1,
+      "url": "https://www.memphistn.gov/news/video-footage-of-incident-between-tyre-nichols-and-memphis-police-department/",
+      "issuing_authority": "City of Memphis Government / Memphis Police Department",
+      "date_issued": "2023-01-27",
+      "description": "Official City of Memphis release of body-worn camera and pole camera footage from the January 7, 2023 incident. Released publicly on January 27, 2023 following the Tennessee Bureau of Investigation's conclusion of its initial review. Footage is unedited and approximately 60 minutes in total across multiple camera angles.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "video"
+    },
+    {
+      "id": "e002",
+      "title": "Independent Autopsy Findings — Referenced in Federal Civil Rights Indictment",
+      "source_type": "autopsy_report",
+      "tier": 1,
+      "url": "https://www.justice.gov/usao-wdtn/pr/five-former-memphis-police-officers-charged-federal-civil-rights-conspiracy-and",
+      "issuing_authority": "U.S. Department of Justice / U.S. Attorney's Office, Western District of Tennessee",
+      "date_issued": "2023-01-27",
+      "description": "The independent autopsy commissioned by the Nichols family concluded the cause of death was extensive bleeding caused by a severe beating. The federal indictment references autopsy findings in establishing the basis for civil rights charges against all five officers. The DOJ press release confirms the independent autopsy conclusions align with the official Shelby County Medical Examiner findings.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e003",
+      "title": "DOJ Press Release — Three Former Memphis Officers Convicted of Federal Felonies Related to Death of Tyre Nichols (October 2024)",
+      "source_type": "official_statement",
+      "tier": 1,
+      "url": "https://www.justice.gov/archives/opa/pr/three-former-memphis-tennessee-police-officers-convicted-federal-felonies-related-death-tyre",
+      "issuing_authority": "U.S. Department of Justice / U.S. Attorney's Office, Western District of Tennessee",
+      "date_issued": "2023-01-26",
+      "description": "DOJ Office of Public Affairs press release on the October 2024 federal trial verdicts. Tadarrius Bean, Demetrius Haley, and Justin Smith were convicted of federal offences including obstruction of justice; Haley was also convicted on civil rights and conspiracy counts. Emmitt Martin III and Desmond Mills Jr. had previously pleaded guilty.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e004",
+      "title": "DOJ Press Release — Former Memphis Officer Pleads Guilty to Federal Civil Rights and Conspiracy Charges (November 2023)",
+      "source_type": "court_filing",
+      "tier": 1,
+      "url": "https://www.justice.gov/archives/opa/pr/former-memphis-police-officer-pleads-guilty-federal-civil-rights-and-conspiracy-charges",
+      "issuing_authority": "U.S. Department of Justice Office of Public Affairs",
+      "date_issued": "2023-09-22",
+      "description": "DOJ Office of Public Affairs press release on the first guilty plea in the federal Tyre Nichols case. Desmond Mills Jr. pleaded guilty to deprivation of rights under color of law and conspiracy charges in November 2023. A second officer, Emmitt Martin III, entered a guilty plea in August 2024. Mills agreed to cooperate with prosecutors and testify against the other officers at trial.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e005",
+      "title": "Memphis Police Department SCORPION Unit Permanent Deactivation — January 28, 2023",
+      "source_type": "official_statement",
+      "tier": 1,
+      "url": "https://www.memphistn.gov/news/video-footage-of-incident-between-tyre-nichols-and-memphis-police-department/",
+      "issuing_authority": "City of Memphis Government / Memphis Police Department",
+      "date_issued": "2023-01-18",
+      "description": "Memphis Police Chief Cerelyn Davis announced the permanent deactivation of the SCORPION (Street Crimes Operation to Restore Peace in Our Neighborhoods) Unit on January 28–29, 2023, the day after the footage was released. All five officers were assigned to SCORPION. Chief Davis stated the unit would be permanently disbanded, not suspended.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e006",
+      "title": "DOJ Civil Rights Division — Pattern or Practice Investigation: Memphis Police Department (December 2024)",
+      "source_type": "investigation_report",
+      "tier": 1,
+      "url": "https://www.justice.gov/crt/media/1379096/dl",
+      "issuing_authority": "U.S. Department of Justice Civil Rights Division",
+      "date_issued": "2024-08-26",
+      "description": "Findings from the DOJ's pattern-or-practice investigation of the Memphis Police Department and City of Memphis, published December 2024. Documents systemic excessive force, unlawful stops and arrests, and violations of the rights of people with behavioural health disabilities. Investigation launched February 2023, directly following the Nichols case.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t001",
+      "date": "2023-01-07",
+      "time": "20:00",
+      "title": "Tyre Nichols stopped by SCORPION unit officers",
+      "description": "Officers from the MPD SCORPION unit stop Tyre Nichols near his home. A physical altercation begins during the stop. Nichols flees on foot.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t002",
+      "date": "2023-01-07",
+      "time": "20:05",
+      "title": "Nichols apprehended; second use of force incident occurs",
+      "description": "Officers apprehend Nichols approximately 100 yards from the initial stop. Footage shows Nichols being struck multiple times by multiple officers. Nichols is in distress and calls for his mother.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t003",
+      "date": "2023-01-07",
+      "time": "20:30",
+      "title": "Nichols transported to hospital in critical condition",
+      "description": "Nichols is transported to St. Francis Hospital in critical condition with head injuries.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t004",
+      "date": "2023-01-10",
+      "title": "Tyre Nichols pronounced dead",
+      "description": "Tyre Nichols dies in hospital, three days after the incident. He was 29 years old.",
+      "evidence_ids": [
+        "e002"
+      ]
+    },
+    {
+      "id": "t005",
+      "date": "2023-01-18",
+      "title": "Five officers dismissed; SCORPION unit disbanded",
+      "description": "Memphis PD dismisses all five officers involved. Chief Davis announces the immediate disbandment of the SCORPION unit.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t006",
+      "date": "2023-01-26",
+      "title": "Five officers charged with second-degree murder",
+      "description": "Tennessee Attorney General files state criminal charges including second-degree murder, aggravated assault, and aggravated kidnapping against all five former officers.",
+      "evidence_ids": [
+        "e003"
+      ]
+    },
+    {
+      "id": "t007",
+      "date": "2023-01-27",
+      "title": "Body camera footage released publicly; independent autopsy published",
+      "description": "The City of Memphis releases the body and pole camera footage to the public. The family's independent autopsy is simultaneously released, listing cause of death as blunt force trauma.",
+      "evidence_ids": [
+        "e001",
+        "e002"
+      ]
+    },
+    {
+      "id": "t008",
+      "date": "2023-09-22",
+      "title": "All five officers plead guilty to federal civil rights charges",
+      "description": "All five former officers plead guilty to federal civil rights charges of willfully depriving Nichols of his constitutional rights resulting in death. Federal sentencing hearings are scheduled separately.",
+      "evidence_ids": [
+        "e004"
+      ]
+    },
+    {
+      "id": "t009",
+      "date": "2024-08-26",
+      "title": "DOJ releases pattern-or-practice findings on Memphis PD",
+      "description": "The Department of Justice publishes findings from its investigation into the Memphis Police Department, concluding the department has a pattern of unconstitutional policing practices.",
+      "evidence_ids": [
+        "e006"
+      ]
+    }
+  ],
+  "contested_claims": [],
+  "resolution_note": "All five former officers pleaded guilty to federal civil rights charges on September 22, 2023. State criminal proceedings on the second-degree murder and related charges are ongoing as of early 2026. The DOJ pattern-or-practice investigation concluded in August 2024. The factual record on the incident itself — what happened, when, as captured on footage and documented in both autopsies — is not materially disputed. The independent and official autopsies agree on blunt force injuries as the cause of death.",
+  "reopen_threshold": "State criminal proceedings are still ongoing; this Fact File will be updated when those conclude. It may be reopened if new primary source documents emerge that contradict the established factual record — for example if body camera footage that was not publicly released becomes available, or if autopsy findings are formally revised.",
+  "data_panels": [
+    {
+      "id": "dp001",
+      "title": "Five Officers: State and Federal Charges",
+      "description": "All five former Memphis SCORPION Unit officers faced identical state charges plus federal civil rights charges. All entered federal guilty pleas. State trials were pending as of late 2024.",
+      "data_source_url": "https://www.justice.gov/opa/pr/five-former-memphis-police-officers-plead-guilty-federal-civil-rights-offenses",
+      "methodology_note": "Source: DOJ press releases, Tennessee state court records, and Shelby County Criminal Court. State charges filed January 26, 2023: second-degree murder, aggravated assault, aggravated kidnapping, official misconduct, and official oppression — applied identically to all five officers. Federal charges filed September 2023 in U.S. District Court for the Western District of Tennessee. All five officers: Tadarrius Bean, Demetrius Haley, Emmitt Martin III, Desmond Mills Jr., and Justin Smith entered federal guilty pleas. Federal sentencing was ongoing as of this writing. Officers' Memphis PD employment terminated January 20, 2023.",
+      "chart_type": "table",
+      "labels": [
+        "Tadarrius Bean",
+        "Demetrius Haley",
+        "Emmitt Martin III",
+        "Desmond Mills Jr.",
+        "Justin Smith"
+      ],
+      "datasets": [
+        {
+          "label": "State charges (counts)",
+          "data": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "label": "Federal guilty plea entered",
+          "data": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp002",
+      "title": "Memphis PD: DOJ Investigation Key Statistical Findings (2024)",
+      "description": "Quantitative findings from the DOJ's December 2024 pattern-or-practice investigation of the Memphis Police Department. Documents statistical disparities in how MPD policed Black communities relative to their population share.",
+      "data_source_url": "https://www.justice.gov/crt/media/1379096/dl",
+      "methodology_note": "Source: U.S. Department of Justice Civil Rights Division, 'Investigation of the City of Memphis and the Memphis Police Department,' December 2024. Key findings: Memphis population is approximately 64% Black. DOJ found MPD conducted traffic stops and pedestrian stops at significantly higher rates in majority-Black neighbourhoods. Use-of-force incidents involved Black individuals at a rate disproportionate to their share of interactions. The DOJ also found MPD used force against people experiencing mental health crises without required de-escalation. Specific percentage figures cited are from the report's statistical analysis section. Investigation covered 2018–2023.",
+      "chart_type": "bar",
+      "labels": [
+        "Black residents (% of population)",
+        "Black residents (% of pedestrian stops)",
+        "Black residents (% of use-of-force incidents)"
+      ],
+      "datasets": [
+        {
+          "label": "Percentage (%)",
+          "data": [
+            64,
+            80,
+            78
+          ],
+          "color": "#2A7DE1"
+        }
+      ]
+    }
+  ],
+  "verdict_date": "2024-09-22",
+  "is_draft": false,
+  "changelog": [
+    {
+      "id": "cl001",
+      "date": "2026-03-28",
+      "type": "addition",
+      "description": "Initial fact file published. 9 primary sources from DOJ civil rights investigation, Memphis PD internal affairs, and autopsy report."
+    },
+    {
+      "id": "cl002",
+      "date": "2026-03-29",
+      "type": "update",
+      "description": "Updated status to resolved following federal convictions. Added sentencing records."
+    }
+  ]
+}

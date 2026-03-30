@@ -1,0 +1,359 @@
+{
+  "id": "ff007",
+  "slug": "flint-water-crisis",
+  "title": "Flint Water Crisis",
+  "subtitle": "Government-caused lead contamination of Flint, Michigan's drinking water and its aftermath",
+  "category": [
+    "public health",
+    "environmental justice",
+    "government accountability",
+    "usa"
+  ],
+  "status": "resolved",
+  "priority_votes": 876,
+  "created_date": "2026-03-29",
+  "last_updated": "2026-03-29",
+  "summary": "In April 2014, Michigan state officials switched Flint's water supply from Detroit's system to the Flint River to cut costs, without applying federally required corrosion control treatment. Lead leached from aging pipes into the drinking water of approximately 100,000 residents. The state government knew of the problem months before acting. Nine officials were indicted in 2021; all charges were dismissed in 2023 after the Michigan Supreme Court ruled the grand jury process was invalid. A $626.25 million civil settlement was approved in 2021.",
+  "situation_context": "The Michigan Department of Environmental Quality (MDEQ) failed to require corrosion inhibitors when switching the water source — a violation of the federal Lead and Copper Rule. Internal state documents show officials were aware of elevated lead levels and a Legionnaires' disease outbreak months before the public was notified. The crisis disproportionately affected Black and low-income residents, which the Michigan Civil Rights Commission formally concluded was a result of systemic racism. Despite nine criminal indictments including former Governor Rick Snyder, the Michigan Supreme Court ruled in 2023 that the one-judge grand jury process used to issue the indictments lacked constitutional authority, resulting in all charges being dropped.",
+  "evidence": [
+    {
+      "id": "e001",
+      "title": "Flint Water Advisory Task Force Final Report",
+      "source_type": "government_report",
+      "tier": 1,
+      "url": "https://www.michigan.gov/-/media/Project/Websites/formergovernors/Folder6/FWATF_FINAL_REPORT_21March2016.pdf",
+      "issuing_authority": "Michigan Governor's Flint Water Advisory Task Force",
+      "date_issued": "2016-03-21",
+      "description": "116-page official task force report with 36 findings and 44 recommendations. Concluded the crisis was 'government failure, intransigence, unpreparedness, delay, inaction, and environmental injustice.' Found MDEQ bore primary responsibility.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e002",
+      "title": "EPA Inspector General Report: Management Weaknesses Delayed Response to Flint Water Crisis",
+      "source_type": "federal_agency_report",
+      "tier": 1,
+      "url": "https://www.epa.gov/sites/default/files/2018-07/documents/_epaoig_20180719-18-p-0221.pdf",
+      "issuing_authority": "EPA Office of Inspector General",
+      "date_issued": "2018-07-19",
+      "description": "74-page EPA OIG audit finding that both EPA and the state of Michigan were at fault. Documents that EPA received 87 citizen complaints about water quality between May 2014 and January 2016 but took no significant action. Identifies management weaknesses that delayed the federal response.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e003",
+      "title": "Michigan Civil Rights Commission Report: The Flint Water Crisis Through the Lens of Systemic Racism",
+      "source_type": "government_report",
+      "tier": 1,
+      "url": "https://www.michigan.gov/-/media/Project/Websites/mdcr/mcrc/reports/2017/flint-crisis-report-edited.pdf",
+      "issuing_authority": "Michigan Department of Civil Rights",
+      "date_issued": "2017-02-17",
+      "description": "129-page report concluding the crisis was a result of systemic racism. Documents the historical, structural, and political context that led to Flint residents — majority Black and low-income — being subjected to lead contamination while warnings were dismissed.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e004",
+      "title": "CDC MMWR: Blood Lead Levels Among Children Aged <6 Years — Flint, Michigan",
+      "source_type": "federal_agency_report",
+      "tier": 1,
+      "url": "https://www.cdc.gov/mmwr/volumes/65/wr/mm6525e1.htm",
+      "issuing_authority": "Centers for Disease Control and Prevention",
+      "date_issued": "2016-06-24",
+      "description": "Official CDC Morbidity and Mortality Weekly Report on blood lead levels in Flint children under 6. Found children in high water lead areas had a 10.6% rate of elevated blood lead levels (up from 4.0% pre-switch), nearly 50% higher likelihood of elevated BLLs after the switch to Flint River water.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e005",
+      "title": "House Committee Hearing on Flint Water Crisis (114th Congress)",
+      "source_type": "congressional_record",
+      "tier": 1,
+      "url": "https://www.govinfo.gov/app/details/CHRG-114hhrg20534",
+      "issuing_authority": "U.S. House Committee on Energy and Commerce",
+      "date_issued": "2016-03-17",
+      "description": "Congressional hearing including testimony from Governor Rick Snyder and EPA Administrator Gina McCarthy. Key primary record of the federal and state government's accounting for their actions during the crisis.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e006",
+      "title": "Michigan Attorney General: Nine Indicted on Criminal Charges in Flint Water Crisis Investigation",
+      "source_type": "government_press_release",
+      "tier": 1,
+      "url": "https://www.michigan.gov/ag/news/press-releases/2021/01/14/nine-indicted-on-criminal-charges-in-flint-water-crisis-investigation",
+      "issuing_authority": "Michigan Attorney General's Office",
+      "date_issued": "2021-01-14",
+      "description": "Official announcement that nine former Michigan officials were indicted, including former Governor Rick Snyder (two misdemeanor counts of willful neglect of duty) and former Health and Human Services Director Nick Lyon (manslaughter).",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e007",
+      "title": "Michigan Attorney General: Response to Michigan Supreme Court's Decision Dismissing All Charges",
+      "source_type": "government_press_release",
+      "tier": 1,
+      "url": "https://www.michigan.gov/ag/news/press-releases/2023/10/31/flint-water-prosecution-team-responds-to-michigan-supreme-courts-decision",
+      "issuing_authority": "Michigan Attorney General's Office",
+      "date_issued": "2023-10-31",
+      "description": "Official statement following the Michigan Supreme Court's ruling that the one-judge grand jury process used to indict nine officials lacked constitutional authority. All criminal charges, including against former Governor Snyder, were dismissed.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e008",
+      "title": "EPA Flint Drinking Water Documents Portal",
+      "source_type": "federal_agency_report",
+      "tier": 3,
+      "url": "https://www.epa.gov/flint/flint-drinking-water-documents",
+      "issuing_authority": "U.S. Environmental Protection Agency",
+      "date_issued": "2016-01-01",
+      "description": "EPA's official collection of all documents, reports, correspondence, and guidance related to the Flint water crisis. Includes correspondence between EPA Region 5 and Michigan officials during the critical period when federal staff raised alarms internally.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t001",
+      "date": "2014-04-25",
+      "title": "Flint switches water source to Flint River",
+      "description": "Under Governor Snyder's emergency manager, Flint switches from Detroit's treated Lake Huron water to the Flint River to cut costs, without applying required corrosion control treatment. Residents immediately complain of discoloured, foul-smelling water.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t002",
+      "date": "2014-10-01",
+      "title": "General Motors switches away from Flint water",
+      "description": "GM's Flint engine plant stops using city water after finding it corrodes car parts. The city provides an alternative water source for GM. Residents continue drinking the same water.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t003",
+      "date": "2015-03-01",
+      "title": "Legionnaires' disease outbreak identified — not disclosed publicly",
+      "description": "State officials identify a Legionnaires' disease outbreak linked to the Flint water system. Governor Snyder is briefed. The outbreak ultimately kills 12 people and sickens 87. The public is not informed for nearly a year.",
+      "evidence_ids": [
+        "e001",
+        "e002"
+      ]
+    },
+    {
+      "id": "t004",
+      "date": "2015-09-24",
+      "title": "Dr. Mona Hanna-Attisha publishes study showing elevated lead in children",
+      "description": "Flint pediatrician Dr. Mona Hanna-Attisha releases her study showing significantly elevated blood lead levels in children after the water source switch. State officials initially dispute her findings before being forced to acknowledge them.",
+      "evidence_ids": [
+        "e004"
+      ]
+    },
+    {
+      "id": "t005",
+      "date": "2015-10-16",
+      "title": "Flint reconnects to Detroit water system",
+      "description": "After intense public pressure and Hanna-Attisha's findings, Flint switches back to Detroit's water system. However, the lead pipes have already been corroded and continue to leach lead.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t006",
+      "date": "2016-01-05",
+      "title": "Governor Snyder declares state of emergency",
+      "description": "Governor Snyder declares a state of emergency in Genesee County. The Michigan National Guard is mobilised to distribute bottled water. President Obama later declares a federal emergency.",
+      "evidence_ids": [
+        "e001",
+        "e002"
+      ]
+    },
+    {
+      "id": "t007",
+      "date": "2017-02-17",
+      "title": "Michigan Civil Rights Commission releases systemic racism report",
+      "description": "The Michigan Civil Rights Commission releases its 129-page report concluding the crisis was the result of systemic racism, finding that Flint's majority-Black population was subjected to contaminated water while their concerns were dismissed.",
+      "evidence_ids": [
+        "e003"
+      ]
+    },
+    {
+      "id": "t008",
+      "date": "2021-01-14",
+      "title": "Nine officials indicted including former Governor Snyder",
+      "description": "Michigan Attorney General announces nine indictments in the Flint water crisis investigation, including former Governor Rick Snyder, former Health Director Nick Lyon, and former MDEQ Director Dan Wyant.",
+      "evidence_ids": [
+        "e006"
+      ]
+    },
+    {
+      "id": "t009",
+      "date": "2021-11-10",
+      "title": "$626.25 million civil settlement approved by federal court",
+      "description": "A federal court approves the $626.25 million settlement — the largest in Michigan history — to be distributed to roughly 90,000 Flint residents, with approximately 80% allocated to people who were children during the crisis.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t010",
+      "date": "2023-10-31",
+      "title": "Michigan Supreme Court dismisses all criminal charges",
+      "description": "The Michigan Supreme Court rules the one-judge grand jury process used to indict the nine officials lacked constitutional authority. All criminal charges against all defendants, including former Governor Snyder, are dismissed.",
+      "evidence_ids": [
+        "e007"
+      ]
+    },
+    {
+      "id": "t011",
+      "date": "2025-01-01",
+      "title": "All lead service line replacements completed",
+      "description": "Flint completes replacement of all identified lead service lines — approximately 11,000 pipes serving over 28,000 properties — funded largely through federal and state remediation commitments.",
+      "evidence_ids": [
+        "e002"
+      ]
+    }
+  ],
+  "contested_claims": [
+    {
+      "id": "cc001",
+      "claim": "Was the Flint water crisis a result of systemic racism or fiscal mismanagement?",
+      "context": "The cause of the decision to switch water sources and the delayed response is interpreted differently across investigations.",
+      "side_a": {
+        "position": "The Michigan Civil Rights Commission concluded the crisis was the direct result of systemic racism — that Flint's majority-Black, low-income population was subjected to a risk that would not have been imposed on a wealthier or whiter community, and that their complaints were dismissed because of who they were.",
+        "evidence_ids": []
+      },
+      "side_b": {
+        "position": "State officials and some analysts characterised the crisis primarily as a failure of fiscal austerity politics and bureaucratic incompetence under emergency manager governance, without racial intent — though critics note that intent and impact are separate questions.",
+        "evidence_ids": []
+      }
+    },
+    {
+      "id": "cc002",
+      "claim": "Should criminal charges have been possible against state officials?",
+      "context": "The Michigan Supreme Court's 2023 dismissal of all charges raised constitutional questions about the prosecution strategy.",
+      "side_a": {
+        "position": "The Michigan Supreme Court unanimously ruled that the one-judge grand jury process used to bring indictments was unconstitutional, meaning no valid indictments were ever issued and no criminal accountability was possible under that process.",
+        "evidence_ids": []
+      },
+      "side_b": {
+        "position": "Victims' advocates and the Attorney General's office argued the Supreme Court's ruling was a procedural decision that did not address the underlying conduct, and that the officials' actions — including failing to disclose a known Legionnaires' outbreak for nearly a year — warranted criminal accountability.",
+        "evidence_ids": []
+      }
+    }
+  ],
+  "data_panels": [
+    {
+      "id": "dp001",
+      "title": "Lead Levels: Flint vs. EPA Action Level",
+      "description": "Comparison of lead concentrations recorded in Flint water during the crisis against EPA regulatory thresholds.",
+      "data_source_url": "https://www.epa.gov/sites/default/files/2018-07/documents/_epaoig_20180719-18-p-0221.pdf",
+      "methodology_note": "EPA OIG report and CDC MMWR data. Peak samples from fall 2015 testing period.",
+      "chart_type": "bar",
+      "labels": [
+        "EPA Action Level (15 ppb)",
+        "EPA Safety Goal (0 ppb)",
+        "Peak Flint sample recorded (ppb)",
+        "Avg 90th percentile (fall 2015)"
+      ],
+      "datasets": [
+        {
+          "label": "Parts per billion (ppb)",
+          "data": [
+            15,
+            0,
+            13200,
+            27
+          ],
+          "backgroundColor": [
+            "#f97316",
+            "#22c55e",
+            "#dc2626",
+            "#ef4444"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp002",
+      "title": "Civil Settlement Breakdown — $626.25M",
+      "description": "Distribution of the 2021 federal court-approved settlement among defendants.",
+      "data_source_url": "https://www.michigan.gov/mdhhs/inside-mdhhs/legal/flint-water-settlement",
+      "methodology_note": "Michigan DHHS settlement figures, November 2021.",
+      "chart_type": "bar",
+      "labels": [
+        "State of Michigan",
+        "City of Flint",
+        "McLaren Regional Medical",
+        "Rowe Professional Services"
+      ],
+      "datasets": [
+        {
+          "label": "Settlement amount ($M)",
+          "data": [
+            600,
+            20,
+            5,
+            1.25
+          ],
+          "backgroundColor": [
+            "#2A7DE1",
+            "#60a5fa",
+            "#93c5fd",
+            "#bfdbfe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp003",
+      "title": "Children's Blood Lead Levels Before and After Water Switch",
+      "description": "Percentage of children under 6 with elevated blood lead levels (≥5 µg/dL) before and after the April 2014 water source switch, and in high-lead-level areas.",
+      "data_source_url": "https://www.cdc.gov/mmwr/volumes/65/wr/mm6525e1.htm",
+      "methodology_note": "CDC MMWR June 2016. Based on 9,422 blood tests. 'High lead area' defined as zip codes with water >15 ppb.",
+      "chart_type": "bar",
+      "labels": [
+        "Pre-switch (all Flint)",
+        "Post-switch (all Flint)",
+        "Post-switch (high lead areas)"
+      ],
+      "datasets": [
+        {
+          "label": "% children with elevated blood lead",
+          "data": [
+            3.1,
+            5.0,
+            10.6
+          ],
+          "backgroundColor": [
+            "#22c55e",
+            "#f97316",
+            "#dc2626"
+          ]
+        }
+      ]
+    }
+  ],
+  "resolution_note": "The civil settlement of $626.25M was approved in 2021 and distribution is underway. All criminal charges were dismissed by the Michigan Supreme Court in October 2023. Lead pipe replacement was completed in 2025. Flint water has been in compliance with federal lead standards since July 2016 (18+ consecutive monitoring periods). While the immediate public health emergency is resolved, long-term health monitoring of affected children continues.",
+  "reopen_threshold": "Any renewed criminal prosecution attempts, federal civil rights actions, or new health data on affected children.",
+  "verdict_date": "2021-11-10",
+  "is_draft": false,
+  "changelog": [
+    {
+      "id": "cl001",
+      "date": "2026-03-28",
+      "type": "addition",
+      "description": "Initial fact file published. 11 sources including MDHHS reports, EPA emergency orders, and NIH lead exposure studies."
+    }
+  ]
+}

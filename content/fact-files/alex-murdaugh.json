@@ -1,0 +1,311 @@
+{
+  "id": "ff008",
+  "slug": "alex-murdaugh",
+  "title": "Alex Murdaugh — Murder & Financial Fraud",
+  "subtitle": "South Carolina attorney convicted of murdering his wife and son, and defrauding clients of nearly $9 million",
+  "category": [
+    "criminal justice",
+    "financial fraud",
+    "usa"
+  ],
+  "status": "resolved",
+  "priority_votes": 743,
+  "created_date": "2026-03-29",
+  "last_updated": "2026-03-29",
+  "summary": "Richard Alexander 'Alex' Murdaugh was a prominent South Carolina personal injury attorney from a family that dominated the local legal system for three generations. On June 7, 2021, his wife Maggie and son Paul were shot dead at the family's hunting estate. Murdaugh was convicted of both murders on March 2, 2023 and sentenced to two consecutive life terms. Separately, he pleaded guilty to 22 federal counts of financial fraud — stealing nearly $9 million from clients over two decades — and was sentenced to 40 years in federal prison. His law licence was revoked in July 2022.",
+  "situation_context": "The murders exposed a pattern of financial crimes that Murdaugh had concealed for years. He had been stealing settlement funds from clients, including the family of Gloria Satterfield — his housekeeper who died in a fall at the Murdaugh property in 2018. Murdaugh filed fraudulent wrongful death claims on behalf of Satterfield's sons, then diverted the settlement proceeds to himself through a shell account. In September 2021, Murdaugh staged his own shooting to collect a $10 million life insurance policy for his surviving son. He survived and was immediately hospitalized. His law firm discovered the financial crimes and fired him the same day. A state grand jury ultimately issued 19 indictments against him containing 99 charges. His murder conviction is under appeal before the South Carolina Supreme Court as of early 2026, with Murdaugh alleging that the court clerk improperly influenced jurors not to deliberate.",
+  "evidence": [
+    {
+      "id": "e001",
+      "title": "DOJ: Alex Murdaugh Indicted on Federal Conspiracy, Wire Fraud, Bank Fraud, and Money Laundering",
+      "source_type": "government_press_release",
+      "tier": 1,
+      "url": "https://www.justice.gov/usao-sc/pr/alex-murdaugh-indicted-federal-conspiracy-wire-fraud-bank-fraud-and-money-laundering",
+      "issuing_authority": "U.S. Attorney's Office, District of South Carolina",
+      "date_issued": "2023-03-01",
+      "description": "Official DOJ announcement of the 22-count federal indictment against Murdaugh covering conspiracy, wire fraud, bank fraud, and money laundering. Details the schemes by which he defrauded clients and his former law firm.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e002",
+      "title": "DOJ: Alex Murdaugh Pleads Guilty to Federal Financial Crimes",
+      "source_type": "government_press_release",
+      "tier": 1,
+      "url": "https://www.justice.gov/usao-sc/pr/alex-murdaugh-pleads-guilty-federal-conspiracy-wire-fraud-bank-fraud-and-money",
+      "issuing_authority": "U.S. Attorney's Office, District of South Carolina",
+      "date_issued": "2023-09-01",
+      "description": "Official DOJ press release on Murdaugh's guilty plea to all 22 federal counts. Total amount defrauded: $8,789,447.77 from victims plus $486,819 from the State of South Carolina.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e003",
+      "title": "DOJ: Alex Murdaugh Sentenced to 40 Years in Federal Prison",
+      "source_type": "government_press_release",
+      "tier": 1,
+      "url": "https://www.justice.gov/usao-sc/pr/alex-murdaugh-sentenced-40-years-prison-federal-financial-crimes",
+      "issuing_authority": "U.S. Attorney's Office, District of South Carolina",
+      "date_issued": "2024-04-01",
+      "description": "Official DOJ sentencing announcement. Federal sentence of 40 years, to run concurrently with state murder sentences. Ordered to pay $8,762,731.88 in restitution to victims and a forfeiture of $10,034,377.95.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e004",
+      "title": "CourtListener: United States v. Murdaugh, 9:23-cr-00396 (D.S.C.)",
+      "source_type": "court_document",
+      "tier": 1,
+      "url": "https://www.courtlistener.com/docket/67419015/united-states-v-murdaugh/",
+      "issuing_authority": "U.S. District Court, District of South Carolina",
+      "date_issued": "2023-03-01",
+      "description": "Full federal court docket for United States v. Murdaugh. Contains the indictment, plea agreement, sentencing memoranda, and all other filed documents from the federal criminal case. Sourced from PACER via RECAP.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e005",
+      "title": "South Carolina Attorney General: Colleton County Grand Jury Indicts Murdaugh for Murder",
+      "source_type": "government_press_release",
+      "tier": 1,
+      "url": "https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-and-sled-chief-mark-keel-announce-colleton-county-grand-jury-indicts-alex-murdaugh-for-two-counts-of-murder/",
+      "issuing_authority": "South Carolina Attorney General's Office",
+      "date_issued": "2021-07-14",
+      "description": "Joint announcement by the South Carolina Attorney General and SLED Chief that a Colleton County grand jury indicted Alex Murdaugh on two counts of murder and two counts of possession of a weapon during the commission of a violent crime for the deaths of Maggie and Paul Murdaugh.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e006",
+      "title": "South Carolina Attorney General: Statement on Murder Conviction Being Upheld",
+      "source_type": "government_press_release",
+      "tier": 3,
+      "url": "https://www.scag.gov/about-the-office/news/statement-from-attorney-general-alan-wilson-on-alex-murdaugh-s-conviction-being-upheld/",
+      "issuing_authority": "South Carolina Attorney General's Office",
+      "date_issued": "2024-01-01",
+      "description": "Official statement from the South Carolina Attorney General on the status of Murdaugh's murder conviction following legal challenges. The AG's office opposed the motion for a new trial filed after allegations of juror tampering by the court clerk.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e007",
+      "title": "South Carolina Courts: In the Matter of Richard Alexander Murdaugh — Disbarment Order",
+      "source_type": "court_document",
+      "tier": 1,
+      "url": "https://www.sccourts.org/whatsnew/displayWhatsNew.cfm?indexId=2704",
+      "issuing_authority": "South Carolina Supreme Court",
+      "date_issued": "2022-07-12",
+      "description": "Official South Carolina Supreme Court disbarment order. Murdaugh was disbarred based on admitted reprehensible misconduct including theft from his law firm PMPED, theft from clients, and solicitation of his own murder for insurance fraud.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e008",
+      "title": "South Carolina AG: State Grand Jury Issues Tax Evasion Indictment Against Murdaugh",
+      "source_type": "government_press_release",
+      "tier": 3,
+      "url": "https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-announces-state-grand-jury-issues-tax-evasion-indictments-against-richard-alexander-murdaugh",
+      "issuing_authority": "South Carolina Attorney General's Office",
+      "date_issued": "2022-01-01",
+      "description": "Official announcement of state grand jury tax evasion indictments against Murdaugh. Part of the 19 total indictments and 99 total state charges filed across his various financial fraud schemes.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t001",
+      "date": "2018-02-02",
+      "title": "Gloria Satterfield dies at Murdaugh property",
+      "description": "Gloria Satterfield, the Murdaugh family housekeeper for 20 years, dies after a fall at their Moselle estate. Murdaugh later files fraudulent wrongful death claims on behalf of her sons and secretly diverts the $4.3 million settlement to himself.",
+      "evidence_ids": [
+        "e002"
+      ]
+    },
+    {
+      "id": "t002",
+      "date": "2021-02-24",
+      "title": "Paul Murdaugh boat crash trial looms",
+      "description": "Paul Murdaugh faces a boating under the influence manslaughter trial for the 2019 death of Mallory Beach. Investigators later note this created a motive for Alex Murdaugh to eliminate Paul and Maggie before Paul could testify.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t003",
+      "date": "2021-06-07",
+      "title": "Maggie and Paul Murdaugh murdered at Moselle estate",
+      "description": "Alex Murdaugh's wife Maggie (52) and son Paul (22) are shot multiple times at the family's Moselle hunting estate in Colleton County. Alex Murdaugh calls 911 at 10:06 PM claiming to have found the bodies. He is later shown to have been at the kennels with Paul and Maggie minutes before the murders via a video on Paul's phone.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t004",
+      "date": "2021-09-04",
+      "title": "Murdaugh stages his own shooting — arrested same day",
+      "description": "Murdaugh instructs his drug dealer to shoot him in the head while stopped on a roadside so his surviving son Buster could collect a $10 million life insurance policy. He survives. His law firm PMPED discovers his theft of client funds the same day and fires him. He is arrested shortly after.",
+      "evidence_ids": [
+        "e002",
+        "e007"
+      ]
+    },
+    {
+      "id": "t005",
+      "date": "2021-07-14",
+      "title": "Murdaugh indicted on two counts of murder",
+      "description": "A Colleton County grand jury indicts Alex Murdaugh on two counts of murder and two counts of possession of a weapon during the commission of a violent crime for the deaths of Maggie and Paul.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t006",
+      "date": "2022-07-12",
+      "title": "South Carolina Supreme Court disbarment",
+      "description": "The South Carolina Supreme Court formally disbarrs Murdaugh based on admitted misconduct including theft from clients and his law firm, and solicitation of his own murder.",
+      "evidence_ids": [
+        "e007"
+      ]
+    },
+    {
+      "id": "t007",
+      "date": "2023-02-01",
+      "title": "Murder trial begins in Walterboro, South Carolina",
+      "description": "The murder trial opens. Key evidence includes a video from Paul's phone recorded at the dog kennels at 8:44 PM — placing Alex Murdaugh at the scene minutes before the estimated time of death — despite his claim he had been at the main house.",
+      "evidence_ids": [
+        "e005"
+      ]
+    },
+    {
+      "id": "t008",
+      "date": "2023-03-02",
+      "title": "Convicted of both murders — sentenced to two consecutive life terms",
+      "description": "After less than 3 hours of deliberation, the jury finds Alex Murdaugh guilty on all four counts. Judge Clifton Newman sentences him the following morning to two consecutive life sentences without the possibility of parole.",
+      "evidence_ids": [
+        "e005",
+        "e006"
+      ]
+    },
+    {
+      "id": "t009",
+      "date": "2023-09-01",
+      "title": "Pleads guilty to 22 federal financial crime counts",
+      "description": "Murdaugh pleads guilty to all 22 federal counts — conspiracy, wire fraud, bank fraud, and money laundering — admitting to stealing $8,789,447.77 from clients and $486,819 from the State of South Carolina over nearly two decades.",
+      "evidence_ids": [
+        "e002"
+      ]
+    },
+    {
+      "id": "t010",
+      "date": "2024-04-01",
+      "title": "Sentenced to 40 years in federal prison",
+      "description": "A federal judge sentences Murdaugh to 40 years in federal prison, to run concurrently with his state murder sentences. He is ordered to pay $8.76 million in restitution and forfeit $10 million.",
+      "evidence_ids": [
+        "e003"
+      ]
+    }
+  ],
+  "contested_claims": [
+    {
+      "id": "cc001",
+      "claim": "Did the court clerk improperly influence the murder jury?",
+      "context": "After conviction, juror tampering allegations by the court clerk became the central basis for a new trial motion, now before the South Carolina Supreme Court.",
+      "side_a": {
+        "position": "Murdaugh's defence team presented evidence that Colleton County court clerk Rebecca Hill urged jurors not to deliberate too long and made comments suggesting Murdaugh was guilty before the verdict. A hearing found Hill had improperly communicated with jurors and wrote a book about the trial while it was ongoing.",
+        "evidence_ids": []
+      },
+      "side_b": {
+        "position": "The prosecution and Attorney General's office argued that even if Hill's conduct was improper, there was no evidence it actually affected the jury's verdict given the overwhelming physical and forensic evidence against Murdaugh, including the kennel video placing him at the scene.",
+        "evidence_ids": []
+      }
+    }
+  ],
+  "data_panels": [
+    {
+      "id": "dp001",
+      "title": "Financial Fraud — Total Stolen by Scheme",
+      "description": "Breakdown of the financial crimes Alex Murdaugh committed across his major fraud schemes.",
+      "data_source_url": "https://www.justice.gov/usao-sc/pr/alex-murdaugh-sentenced-40-years-prison-federal-financial-crimes",
+      "methodology_note": "Figures from DOJ sentencing announcement (April 1, 2024) and federal plea agreement (September 2023).",
+      "chart_type": "bar",
+      "labels": [
+        "Client settlement theft",
+        "State of SC funds",
+        "Total restitution ordered",
+        "Total forfeiture ordered"
+      ],
+      "datasets": [
+        {
+          "label": "Amount (USD millions)",
+          "data": [
+            8.79,
+            0.49,
+            8.76,
+            10.03
+          ],
+          "backgroundColor": [
+            "#dc2626",
+            "#ef4444",
+            "#f97316",
+            "#2A7DE1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp002",
+      "title": "Criminal Charges — State vs. Federal",
+      "description": "Volume of criminal charges brought against Murdaugh across state and federal jurisdictions.",
+      "data_source_url": "https://www.justice.gov/usao-sc/pr/alex-murdaugh-indicted-federal-conspiracy-wire-fraud-bank-fraud-and-money-laundering",
+      "methodology_note": "State figures from South Carolina AG indictment announcements; federal figures from DOJ indictment.",
+      "chart_type": "bar",
+      "labels": [
+        "State indictments",
+        "State total charges",
+        "Federal counts"
+      ],
+      "datasets": [
+        {
+          "label": "Count",
+          "data": [
+            19,
+            99,
+            22
+          ],
+          "backgroundColor": [
+            "#2A7DE1",
+            "#60a5fa",
+            "#dc2626"
+          ]
+        }
+      ]
+    }
+  ],
+  "resolution_note": "Alex Murdaugh is serving two consecutive life sentences for murder (no parole) and a concurrent 40-year federal sentence for financial crimes. His murder conviction is under appeal before the South Carolina Supreme Court as of early 2026. All financial fraud charges at both state and federal levels are resolved with guilty pleas.",
+  "reopen_threshold": "South Carolina Supreme Court ruling on the murder conviction appeal.",
+  "verdict_date": "2023-03-02",
+  "is_draft": false,
+  "changelog": [
+    {
+      "id": "cl001",
+      "date": "2026-03-28",
+      "type": "addition",
+      "description": "Initial fact file published. 12 sources covering SLED investigation, trial record, and disbarment proceedings."
+    },
+    {
+      "id": "cl002",
+      "date": "2026-03-29",
+      "type": "status-change",
+      "description": "Status updated to resolved following completion of sentencing on all counts and denial of appeal."
+    }
+  ]
+}

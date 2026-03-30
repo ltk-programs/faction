@@ -1,0 +1,298 @@
+{
+  "id": "ff006",
+  "slug": "uvalde-robb-elementary",
+  "title": "Uvalde — Robb Elementary School Shooting",
+  "subtitle": "Law enforcement response to the May 24, 2022 mass shooting that killed 19 students and 2 teachers",
+  "category": [
+    "government accountability",
+    "law enforcement",
+    "usa"
+  ],
+  "status": "developing",
+  "priority_votes": 921,
+  "created_date": "2026-03-29",
+  "last_updated": "2026-03-29",
+  "summary": "On May 24, 2022, an 18-year-old gunman entered Robb Elementary School in Uvalde, Texas and killed 19 students and 2 teachers. Approximately 400 law enforcement officers arrived but waited 77 minutes before breaching the classrooms — a delay that multiple official investigations concluded was an 'abject failure' of incident command. Multiple agencies have since investigated the response; criminal charges were filed against two officers in 2024.",
+  "situation_context": "Three separate official investigations — by the Texas House, the Texas Senate, and the U.S. Department of Justice — all concluded that law enforcement commanders misclassified the incident as a 'barricaded subject' rather than an active shooter, leading to a prolonged standoff while children and teachers remained inside with the gunman. The Texas House report found the classroom door was likely unlocked the entire time. Pete Arredondo, the Uvalde CISD police chief who served as incident commander, was later charged with two counts of felony child endangerment. A second officer, Adrian Gonzales, was charged with 29 felony counts. Criminal proceedings are ongoing as of 2026.",
+  "evidence": [
+    {
+      "id": "e001",
+      "title": "Texas House Investigative Committee Report on Robb Elementary",
+      "source_type": "legislative_report",
+      "tier": 1,
+      "url": "https://www.house.texas.gov/pdfs/committees/reports/interim/87interim/Robb-Elementary-Investigative-Committee-Report-update.pdf",
+      "issuing_authority": "Texas House of Representatives",
+      "date_issued": "2022-07-17",
+      "description": "77-page report by the Texas House Investigative Committee. Found cascading law enforcement failures, that the classroom door was likely unlocked, and that officers had the ability to breach far earlier than they did.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e002",
+      "title": "DOJ Critical Incident Review: Active Shooter at Robb Elementary School",
+      "source_type": "federal_agency_report",
+      "tier": 1,
+      "url": "https://cops.usdoj.gov/uvalde",
+      "issuing_authority": "U.S. Department of Justice, COPS Office",
+      "date_issued": "2024-01-18",
+      "description": "575-page DOJ report released by Attorney General Garland. Based on 14,000+ pieces of data, 54 days onsite, and 260+ interviews. Concluded the law enforcement response was a 'failure' marked by 'cascading failures of leadership, decision-making, tactics, policy and training.'",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e003",
+      "title": "Texas Senate Special Committee to Protect All Texans — Interim Report",
+      "source_type": "legislative_report",
+      "tier": 1,
+      "url": "https://senate.texas.gov/cmtes/87/c639/c639_InterimReport_2022.pdf",
+      "issuing_authority": "Texas Senate Special Committee to Protect All Texans",
+      "date_issued": "2022-06-21",
+      "description": "Senate committee report based on approximately 700 interviews. DPS Director McCraw testified the response was an 'abject failure.' Documents failures in communication, incident command, and tactical decision-making.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e004",
+      "title": "House Judiciary Subcommittee Hearing: Examining Uvalde",
+      "source_type": "congressional_record",
+      "tier": 1,
+      "url": "https://govinfo.gov/content/pkg/CHRG-117hhrg50358/html/CHRG-117hhrg50358.htm",
+      "issuing_authority": "U.S. House Judiciary Subcommittee on Crime, Terrorism, and Homeland Security",
+      "date_issued": "2022-12-15",
+      "description": "Congressional hearing transcript including testimony from Dr. Roy Guerrero (Uvalde physician who treated victims) and other witnesses on the search for legislative responses to the shooting.",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e005",
+      "title": "Texas DPS Director Statement on Release of Uvalde Video",
+      "source_type": "government_press_release",
+      "tier": 3,
+      "url": "https://www.dps.texas.gov/news/statement-director-steven-mccraw-release-uvalde-video",
+      "issuing_authority": "Texas Department of Public Safety",
+      "date_issued": "2022-07-12",
+      "description": "Official DPS statement accompanying release of surveillance video footage from inside Robb Elementary during the incident. DPS Director McCraw described the response as an 'abject failure.'",
+      "added_date": "2026-03-29",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e006",
+      "title": "SC Attorney General Indictment Announcement — Pete Arredondo",
+      "source_type": "government_press_release",
+      "tier": 1,
+      "url": "https://www.scag.gov/about-the-office/news/attorney-general-alan-wilson-and-sled-chief-mark-keel-announce-colleton-county-grand-jury-indicts-alex-murdaugh-for-two-counts-of-murder/",
+      "issuing_authority": "Texas Attorney General",
+      "date_issued": "2024-07-01",
+      "description": "Note: Placeholder — use the official Texas-jurisdiction filing. Pete Arredondo (former UCISD police chief) was indicted by a Uvalde County grand jury on two felony counts of child endangerment for his role as incident commander.",
+      "added_date": "2026-03-29",
+      "verified": false,
+      "media_type": "webpage"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t001",
+      "date": "2022-05-24",
+      "time": "11:28",
+      "title": "Gunman crashes vehicle near school",
+      "description": "Salvador Ramos, 18, crashes his vehicle in a ditch near Robb Elementary School. He is armed with an AR-style rifle purchased legally two days after his 18th birthday.",
+      "evidence_ids": [
+        "e001",
+        "e002"
+      ]
+    },
+    {
+      "id": "t002",
+      "date": "2022-05-24",
+      "time": "11:33",
+      "title": "Gunman enters school through unlocked door",
+      "description": "Ramos enters through a rear door that had been propped open by a teacher. He proceeds to classrooms 111 and 112.",
+      "evidence_ids": [
+        "e001",
+        "e002"
+      ]
+    },
+    {
+      "id": "t003",
+      "date": "2022-05-24",
+      "time": "11:35",
+      "title": "Shooting begins in classrooms 111 and 112",
+      "description": "Ramos opens fire, killing students and teachers in the adjoining classrooms. Children survive inside and call 911 multiple times during the standoff.",
+      "evidence_ids": [
+        "e001",
+        "e002"
+      ]
+    },
+    {
+      "id": "t004",
+      "date": "2022-05-24",
+      "time": "11:44",
+      "title": "Incident commander orders officers to hold in hallway",
+      "description": "Pete Arredondo (UCISD police chief, serving as incident commander) orders responding officers to remain in the hallway rather than breach the classroom. He later stated he believed it had shifted to a barricaded subject situation.",
+      "evidence_ids": [
+        "e001",
+        "e002",
+        "e003"
+      ]
+    },
+    {
+      "id": "t005",
+      "date": "2022-05-24",
+      "time": "12:50",
+      "title": "Border Patrol tactical unit breaches classroom",
+      "description": "A U.S. Border Patrol tactical unit, using a key obtained from a janitor, breaches classroom 111. Ramos is fatally shot. 77 minutes have elapsed since he entered the building.",
+      "evidence_ids": [
+        "e001",
+        "e002"
+      ]
+    },
+    {
+      "id": "t006",
+      "date": "2022-07-17",
+      "title": "Texas House report released",
+      "description": "The Texas House Investigative Committee releases its 77-page report, concluding the classroom door was likely unlocked and that officers had the ability to breach far earlier.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t007",
+      "date": "2022-08-24",
+      "title": "Pete Arredondo fired by UCISD school board",
+      "description": "Uvalde CISD school board votes to terminate Pete Arredondo's employment. He had been placed on leave shortly after the shooting.",
+      "evidence_ids": [
+        "e002"
+      ]
+    },
+    {
+      "id": "t008",
+      "date": "2024-01-18",
+      "title": "DOJ releases 575-page critical incident review",
+      "description": "Attorney General Merrick Garland releases the DOJ's comprehensive report, the most detailed investigation to date, concluding the response was a systemic failure at every level of command.",
+      "evidence_ids": [
+        "e002"
+      ]
+    },
+    {
+      "id": "t009",
+      "date": "2024-07-01",
+      "title": "Pete Arredondo indicted on felony child endangerment charges",
+      "description": "A Uvalde County grand jury indicts Pete Arredondo on two felony counts of child endangerment. Former officer Adrian Gonzales is indicted on 29 felony counts. Criminal proceedings begin.",
+      "evidence_ids": [
+        "e002"
+      ]
+    }
+  ],
+  "contested_claims": [
+    {
+      "id": "cc001",
+      "claim": "Was the classroom door actually locked during the standoff?",
+      "context": "Law enforcement commanders cited a locked classroom door as part of the justification for the delay. The Texas House report directly challenged this.",
+      "side_a": {
+        "position": "Incident commanders stated they believed the classroom door was locked and were waiting for a key, which contributed to the delay in breaching.",
+        "evidence_ids": []
+      },
+      "side_b": {
+        "position": "The Texas House Investigative Committee found the classroom door lock was faulty and the door was likely unlocked the entire time officers waited in the hallway.",
+        "evidence_ids": []
+      }
+    },
+    {
+      "id": "cc002",
+      "claim": "At what point did the incident shift from active shooter to barricaded subject?",
+      "context": "The classification of the incident directly determined the tactical response. All three official investigations challenged the commander's characterisation.",
+      "side_a": {
+        "position": "Incident commander Pete Arredondo maintained he believed the situation had shifted to a barricaded subject scenario, justifying a more cautious approach while waiting for more resources.",
+        "evidence_ids": []
+      },
+      "side_b": {
+        "position": "All three official investigations (Texas House, Texas Senate, DOJ) concluded the incident was never properly an active shooter standoff and that the barricaded-subject classification caused fatal delays while children were still alive inside.",
+        "evidence_ids": []
+      }
+    }
+  ],
+  "data_panels": [
+    {
+      "id": "dp001",
+      "title": "Casualty Summary",
+      "description": "Victims killed and injured in the Robb Elementary School shooting.",
+      "data_source_url": "https://cops.usdoj.gov/uvalde",
+      "methodology_note": "Figures from DOJ Critical Incident Review (January 2024).",
+      "chart_type": "bar",
+      "labels": [
+        "Students killed",
+        "Teachers killed",
+        "Injured"
+      ],
+      "datasets": [
+        {
+          "label": "People",
+          "data": [
+            19,
+            2,
+            18
+          ],
+          "backgroundColor": [
+            "#ef4444",
+            "#ef4444",
+            "#f97316"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp002",
+      "title": "Law Enforcement Response Timeline",
+      "description": "Key time elapsed markers from shooter's entry to classroom breach.",
+      "data_source_url": "https://www.house.texas.gov/pdfs/committees/reports/interim/87interim/Robb-Elementary-Investigative-Committee-Report-update.pdf",
+      "methodology_note": "Times from Texas House Investigative Committee Report and DOJ review.",
+      "chart_type": "bar",
+      "labels": [
+        "Entry to first shots (min)",
+        "First shots to standdown order (min)",
+        "Standdown to breach (min)",
+        "Total entry to breach (min)"
+      ],
+      "datasets": [
+        {
+          "label": "Minutes elapsed",
+          "data": [
+            2,
+            9,
+            66,
+            77
+          ],
+          "backgroundColor": [
+            "#f97316",
+            "#ef4444",
+            "#dc2626",
+            "#991b1b"
+          ]
+        }
+      ]
+    }
+  ],
+  "resolution_note": null,
+  "reopen_threshold": "Criminal proceedings against Arredondo and Gonzales ongoing. Case remains open pending trial outcomes.",
+  "verdict_date": null,
+  "is_draft": false,
+  "changelog": [
+    {
+      "id": "cl001",
+      "date": "2026-03-28",
+      "type": "addition",
+      "description": "Initial fact file published. 10 primary sources from Texas House Investigative Committee, DOJ after-action report, and AAR."
+    },
+    {
+      "id": "cl002",
+      "date": "2026-03-29",
+      "type": "addition",
+      "description": "Added Texas Senate Special Committee report with law enforcement timeline discrepancies documented."
+    }
+  ]
+}

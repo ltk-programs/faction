@@ -1,0 +1,413 @@
+{
+  "id": "ff001",
+  "slug": "derek-chauvin-george-floyd",
+  "title": "Derek Chauvin / George Floyd — Minneapolis, May 2020",
+  "subtitle": "Death of George Floyd during police arrest and subsequent criminal trial of Officer Derek Chauvin",
+  "category": [
+    "policing",
+    "criminal justice",
+    "usa"
+  ],
+  "status": "resolved",
+  "priority_votes": 852,
+  "created_date": "2026-03-28",
+  "last_updated": "2026-03-28",
+  "summary": "On May 25, 2020, George Floyd, a 46-year-old Black man, died in Minneapolis, Minnesota, following an arrest by Minneapolis Police Department officers. Officer Derek Chauvin knelt on or near Floyd's neck/shoulder area for approximately 9 minutes and 29 seconds while Floyd was restrained face-down on the ground. Floyd was pronounced dead at Hennepin Healthcare at 9:25 PM. Chauvin was charged with second-degree unintentional murder, third-degree murder, and second-degree manslaughter. On April 20, 2021, a Hennepin County jury found Chauvin guilty on all three counts. He was sentenced to 22.5 years in federal prison following a subsequent federal civil rights conviction.",
+  "situation_context": "George Floyd was arrested outside Cup Foods convenience store at 38th Street and Chicago Avenue South in Minneapolis after a store employee called 911 reporting Floyd had allegedly used a counterfeit $20 bill. Officers arrived at approximately 8:08 PM. Floyd was handcuffed and placed face-down on the ground. Officer Derek Chauvin had been with the Minneapolis Police Department for 19 years. Floyd had a documented history of heart disease and had fentanyl and methamphetamine in his system at the time of death, as recorded in the medical examiner's toxicology report.",
+  "evidence": [
+    {
+      "id": "e001",
+      "title": "Amended Criminal Complaint — State of Minnesota v. Derek Michael Chauvin (27-CR-20-12646)",
+      "source_type": "court_filing",
+      "tier": 1,
+      "url": "https://mncourts.gov/mncourtsgov/media/High-Profile-Cases/27-CR-20-12646/AmendedComplaint06032020.pdf",
+      "issuing_authority": "Hennepin County District Court, State of Minnesota",
+      "date_issued": "2020-05-29",
+      "description": "Amended complaint filed June 3, 2020. Upgraded first charge from third-degree to second-degree murder. Documents the factual basis for each charge: second-degree unintentional murder (Minn. Stat. § 609.19, subd. 1), third-degree murder, and second-degree manslaughter.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e002",
+      "title": "Hennepin County Medical Examiner Autopsy Report — George Perry Floyd (Case 2020-3700)",
+      "source_type": "autopsy_report",
+      "tier": 1,
+      "url": "https://www.documentcloud.org/documents/6936176-Autopsy-2020-3700-Floyd",
+      "issuing_authority": "Hennepin County Medical Examiner's Office",
+      "date_issued": "2020-06-01",
+      "description": "Official autopsy report by Hennepin County Medical Examiner Dr. Andrew Baker. Cause of death: cardiopulmonary arrest complicating law enforcement subdual, restraint, and neck compression. Manner of death: homicide. Released publicly June 1, 2020. Toxicology addendum included.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e003",
+      "title": "Independent Autopsy Findings — Referenced in Federal Civil Rights Case (DOJ Press Release)",
+      "source_type": "autopsy_report",
+      "tier": 1,
+      "url": "https://www.justice.gov/opa/pr/former-minneapolis-police-officer-derek-chauvin-pleads-guilty-federal-civil-rights-charges",
+      "issuing_authority": "Dr. Michael Baden (former NYC Chief Medical Examiner) & Dr. Allecia Wilson (University of Michigan)",
+      "date_issued": "2020-06-01",
+      "description": "The independent autopsy commissioned by the Floyd family, conducted by Dr. Michael Baden and Dr. Allecia Wilson, concluded cause of death was asphyxia due to neck and back compression. The independent findings are cited in the federal civil rights case proceedings. DOJ press release confirms guilty plea on charges arising directly from the restraint.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e004",
+      "title": "Body Camera Footage — City of Minneapolis Official Incident Reference (May 25, 2020)",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.minneapolismn.gov/resident-services/public-safety/police-public-safety/police-reports-and-data-requests/frequently-requested/critical-incidents/may-25-2020-officer-involved-death/",
+      "issuing_authority": "City of Minneapolis",
+      "date_issued": "2021-03-29",
+      "description": "City of Minneapolis official public data page for the May 25, 2020 officer-involved death. Body camera footage from Officers Chauvin, Lane, Kueng, and Thao was released by court order on August 7, 2020 (Hennepin County Judge Peter Cahill) and played publicly during the trial. No stable government-domain URL hosts the raw footage — this official incident page is the primary reference point maintained by the City.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e005",
+      "title": "Darnella Frazier Bystander Video — Pulitzer Prize Special Citation (Authentic Record of Footage Existence)",
+      "source_type": "other_tier3",
+      "tier": 3,
+      "url": "https://www.pulitzer.org/winners/darnella-frazier",
+      "issuing_authority": "Entered as trial exhibit, Hennepin County District Court",
+      "date_issued": "2020-05-25",
+      "description": "The Pulitzer Prize Board awarded Darnella Frazier a Special Citation in 2021 for filming the video of George Floyd's death, which the Board described as \"enabling the world to witness what happened.\" The video was entered into evidence at trial (State Exhibit 15). No stable government-domain URL exists for the footage itself — the original Facebook post has no archival guarantee and trial exhibit portals require case-system access. This Pulitzer citation is the most authoritative public record of the footage's authenticity and public significance.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e006",
+      "title": "Court Case Documents Index — State of Minnesota v. Derek Chauvin (27-CR-20-12646), Including Jury Verdict (April 20, 2021)",
+      "source_type": "court_filing",
+      "tier": 1,
+      "url": "https://mncourts.gov/media/stateofminnesotavderekchauvin/documents",
+      "issuing_authority": "Hennepin County District Court / Minnesota Courts",
+      "date_issued": "2021-04-20",
+      "description": "Official Minnesota Courts public document index for State v. Chauvin (case 27-CR-20-12646). Lists all filed court documents including the April 20, 2021 jury verdict form (three counts: unintentional second-degree murder, third-degree murder, second-degree manslaughter — all guilty). The sentencing order of June 25, 2021 (also listed here) formally records the verdicts and 270-month concurrent sentence.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "webpage"
+    },
+    {
+      "id": "e007",
+      "title": "DOJ Civil Rights Division — Pattern or Practice Investigation: Minneapolis Police Department (June 2023)",
+      "source_type": "investigation_report",
+      "tier": 1,
+      "url": "https://www.justice.gov/d9/2023-06/minneapolis_findings_report.pdf",
+      "issuing_authority": "United States Department of Justice, Civil Rights Division",
+      "date_issued": "2023-06-16",
+      "description": "Findings from the Department of Justice's pattern-or-practice investigation of the Minneapolis Police Department, published June 16, 2023. Covers 2010–2022 data. Documents systemic excessive force, unlawful discrimination, and violations of free speech rights. Black residents subjected to force at disproportionate rates throughout the period.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e008",
+      "title": "Minneapolis Police Department Policy Manual — Use of Force Policy 5-300 (2020)",
+      "source_type": "government_document",
+      "tier": 1,
+      "url": "https://www.minneapolismn.gov/government/departments/police/mpd-policy-procedure-manual/policy-manual/",
+      "issuing_authority": "Minneapolis Police Department",
+      "date_issued": "2020-01-01",
+      "description": "Minneapolis PD's official use-of-force policy in effect on May 25, 2020. Policy 5-300 governs authorised force types, required de-escalation, and reporting requirements. The policy prohibits choke holds but does not explicitly address the neck restraint technique used on Floyd. Key document in establishing whether Chauvin's actions violated MPD policy.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e009",
+      "title": "Federal Criminal Case — United States v. Derek Chauvin (0:21-CR-00108, D. Minnesota)",
+      "source_type": "court_filing",
+      "tier": 1,
+      "url": "https://www.courtlistener.com/docket/59889186/united-states-v-chauvin/",
+      "issuing_authority": "United States District Court, District of Minnesota / Department of Justice",
+      "date_issued": "2021-05-07",
+      "description": "Federal civil rights case against Derek Chauvin. Chauvin pleaded guilty December 15, 2021 to deprivation of rights under color of law (18 U.S.C. § 242). Sentenced to 20 years and 9 months (concurrent with state sentence). Case documents available via CourtListener PACER archive.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    },
+    {
+      "id": "e010",
+      "title": "Sentencing Order — State v. Derek Chauvin (June 25, 2021)",
+      "source_type": "court_filing",
+      "tier": 1,
+      "url": "https://mncourts.gov/mncourtsgov/media/High-Profile-Cases/27-CR-20-12646/MCRO_27-CR-20-12646_Sentencing-Order_2021-06-25_20210625145755.pdf",
+      "issuing_authority": "Hennepin County District Court — Judge Peter Cahill",
+      "date_issued": "2021-06-25",
+      "description": "Official sentencing order from Hennepin County District Court Judge Peter Cahill, dated June 25, 2021. Sentenced Chauvin to 22.5 years (270 months) — above the standard guidelines range of 128–180 months — on the most serious count. Remaining counts run concurrent. Order documents aggravating factors found by the court.",
+      "added_date": "2026-03-28",
+      "verified": true,
+      "media_type": "document"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t001",
+      "date": "2020-05-25",
+      "time": "20:08",
+      "title": "Officers respond to Cup Foods 911 call",
+      "description": "Officers Thomas Lane and J. Alexander Kueng respond to a 911 call from Cup Foods reporting a customer allegedly passed a counterfeit $20 bill and appeared to be under the influence.",
+      "evidence_ids": [
+        "e004"
+      ]
+    },
+    {
+      "id": "t002",
+      "date": "2020-05-25",
+      "time": "20:14",
+      "title": "Floyd handcuffed; officers attempt to place him in squad car",
+      "description": "Officers handcuff Floyd and attempt to place him in the rear of a squad car. Floyd states he is claustrophobic and resists entry. Body camera footage records Floyd saying he cannot breathe prior to being restrained on the ground.",
+      "evidence_ids": [
+        "e004"
+      ]
+    },
+    {
+      "id": "t003",
+      "date": "2020-05-25",
+      "time": "20:19",
+      "title": "Floyd restrained face-down on street; Chauvin kneels on neck/shoulder area",
+      "description": "Floyd is placed face-down on the ground. Officer Chauvin places his knee on or near Floyd's neck and shoulder area. Officers Lane and Kueng hold down Floyd's legs and torso. Officer Thao stands nearby facing bystanders.",
+      "evidence_ids": [
+        "e004",
+        "e005"
+      ]
+    },
+    {
+      "id": "t004",
+      "date": "2020-05-25",
+      "time": "20:25",
+      "title": "Floyd becomes unresponsive; bystanders alert officers",
+      "description": "Floyd stops speaking. Bystanders alert officers that Floyd appears unresponsive. Officers request an ambulance. Body camera footage and bystander video record the response. Floyd's restraint continues after he becomes unresponsive.",
+      "evidence_ids": [
+        "e004",
+        "e005"
+      ]
+    },
+    {
+      "id": "t005",
+      "date": "2020-05-25",
+      "time": "20:27",
+      "title": "Chauvin removes knee; ambulance arrives",
+      "description": "Officer Chauvin removes his knee from Floyd's neck/shoulder area. Emergency Medical Services arrive and begin assessment. The duration of Chauvin's restraint was approximately 9 minutes and 29 seconds according to the charging documents and trial evidence.",
+      "evidence_ids": [
+        "e004",
+        "e001"
+      ]
+    },
+    {
+      "id": "t006",
+      "date": "2020-05-25",
+      "time": "21:25",
+      "title": "George Floyd pronounced dead at Hennepin Healthcare",
+      "description": "George Floyd is pronounced dead at Hennepin Healthcare (now Hennepin County Medical Center). He was 46 years old.",
+      "evidence_ids": [
+        "e001",
+        "e002"
+      ]
+    },
+    {
+      "id": "t007",
+      "date": "2020-05-29",
+      "title": "Officer Chauvin charged; three other officers terminated",
+      "description": "Hennepin County Attorney Mike Freeman files a criminal complaint charging Chauvin with third-degree murder and second-degree manslaughter. All four officers involved had been terminated from the MPD on May 26.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t008",
+      "date": "2020-06-03",
+      "title": "Charges upgraded; Officers Lane, Kueng, Thao charged",
+      "description": "Attorney General Keith Ellison takes over the case. Chauvin's charges are upgraded to include second-degree unintentional murder. Officers Lane, Kueng, and Thao are charged with aiding and abetting second-degree murder.",
+      "evidence_ids": [
+        "e001"
+      ]
+    },
+    {
+      "id": "t009",
+      "date": "2021-03-08",
+      "title": "Trial of Derek Chauvin begins",
+      "description": "Trial begins in Hennepin County District Court before Judge Peter Cahill. Prosecution presents case over three weeks including body camera footage, medical expert testimony, and use-of-force expert testimony. Defense argues cause of death was cardiac arrest related to drug use and pre-existing heart conditions.",
+      "evidence_ids": [
+        "e004",
+        "e002",
+        "e003"
+      ]
+    },
+    {
+      "id": "t010",
+      "date": "2021-04-20",
+      "title": "Chauvin found guilty on all three counts",
+      "description": "After approximately 10 hours of deliberation, the jury finds Derek Chauvin guilty of second-degree unintentional murder, third-degree murder, and second-degree manslaughter.",
+      "evidence_ids": [
+        "e006"
+      ]
+    },
+    {
+      "id": "t011",
+      "date": "2021-06-25",
+      "title": "Chauvin sentenced to 22.5 years",
+      "description": "Judge Peter Cahill sentences Chauvin to 22.5 years on the most serious count, departing upward from the 12.5-year sentencing guideline due to four aggravating factors. Chauvin is also sentenced to concurrent terms on the lesser counts.",
+      "evidence_ids": [
+        "e010"
+      ]
+    },
+    {
+      "id": "t012",
+      "date": "2021-12-15",
+      "title": "Chauvin pleads guilty to federal civil rights charges",
+      "description": "Chauvin pleads guilty in federal court to depriving Floyd of his constitutional rights, as well as a separate federal civil rights charge relating to a 2017 incident. Federal sentence of 21 years to run concurrently with state sentence.",
+      "evidence_ids": [
+        "e009"
+      ]
+    },
+    {
+      "id": "t013",
+      "date": "2023-06-16",
+      "title": "DOJ releases pattern-or-practice findings on Minneapolis PD",
+      "description": "The U.S. Department of Justice releases its 89-page findings from a two-year investigation into the Minneapolis Police Department, concluding the department engages in a pattern of unconstitutional policing practices.",
+      "evidence_ids": [
+        "e007"
+      ]
+    }
+  ],
+  "contested_claims": [
+    {
+      "id": "c001",
+      "claim": "What was the precise anatomical position of Officer Chauvin's knee during the restraint?",
+      "context": "The exact position of Chauvin's knee was disputed by medical and use-of-force experts at trial, with implications for both the cause of death and the use-of-force analysis. This is a factual question addressed directly by competing primary source testimony and footage analysis.",
+      "side_a": {
+        "position": "Prosecution medical and use-of-force experts testified, and video analysis supported, that Chauvin's knee was positioned on Floyd's neck, restricting airway and blood flow to the brain. Dr. Martin Tobin (pulmonologist) testified Chauvin's knee was on the neck for the majority of the restraint duration.",
+        "evidence_ids": [
+          "e004",
+          "e005"
+        ]
+      },
+      "side_b": {
+        "position": "Defense experts testified that Chauvin's knee was positioned primarily on Floyd's shoulder blade area for significant portions of the restraint, and that the restraint technique was within MPD policy in effect at the time. Defense use-of-force expert Barry Brodd testified the technique was not a neck restraint as defined by MPD policy.",
+        "evidence_ids": [
+          "e004",
+          "e008"
+        ]
+      }
+    },
+    {
+      "id": "c002",
+      "claim": "What was the primary cause of death — mechanical asphyxiation or cardiac arrest related to drug toxicity and pre-existing conditions?",
+      "context": "The cause of death was the central contested factual question at trial, with two autopsies reaching different primary conclusions. Both are primary source documents.",
+      "side_a": {
+        "position": "The independent autopsy (Baden/Wilson) listed cause of death as asphyxiation from sustained pressure on the neck and back, making no reference to drug toxicity as a contributing factor. Prosecution's Dr. Tobin testified Floyd died from low oxygen caused by his position and restraint.",
+        "evidence_ids": [
+          "e003"
+        ]
+      },
+      "side_b": {
+        "position": "The Hennepin County Medical Examiner's report listed cardiopulmonary arrest as the cause of death and identified fentanyl toxicity and methamphetamine intoxication as 'other significant conditions.' The county ME, Dr. Andrew Baker, testified that if Floyd had been found alone with the same drug levels, it could have been a fatal overdose. The ME nonetheless ruled manner of death as homicide.",
+        "evidence_ids": [
+          "e002"
+        ]
+      }
+    }
+  ],
+  "data_panels": [
+    {
+      "id": "dp001",
+      "title": "State v. Chauvin — All Three Charges: Guilty (April 20, 2021)",
+      "description": "Jury verdict on all three charges. Each 1 = Guilty verdict returned. Chauvin was the first white Minneapolis police officer ever convicted of killing a Black person.",
+      "data_source_url": "https://mncourts.gov/mncourtsgov/media/High-Profile-Cases/27-CR-20-12646/Verdict-Form-Filed.pdf",
+      "methodology_note": "Data from the official jury verdict form, Case 27-CR-20-12646, Hennepin County District Court. Three charges were submitted to the jury: (1) Second-degree unintentional murder (Minn. Stat. §609.19 subd. 1(1)) — maximum 40 years; (2) Third-degree murder (depraved indifference, §609.195(a)) — maximum 25 years; (3) Second-degree manslaughter (culpable negligence, §609.205(1)) — maximum 10 years. All three returned guilty. Jury deliberated approximately 10.5 hours across 2 days.",
+      "chart_type": "table",
+      "labels": [
+        "2nd Degree Unintentional Murder",
+        "3rd Degree Murder (Depraved Indifference)",
+        "2nd Degree Manslaughter"
+      ],
+      "datasets": [
+        {
+          "label": "Verdict",
+          "data": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dp002",
+      "title": "Minneapolis Police: Racial Disparity in Use of Force vs. Population Share (DOJ 2023)",
+      "description": "Comparison of the percentage of Minneapolis Police use-of-force incidents involving Black and white residents versus their share of the city's population. The gap shows a structural disparity documented across the full 2010–2022 period investigated by the DOJ.",
+      "data_source_url": "https://www.justice.gov/d9/2023-06/minneapolis_findings_report.pdf",
+      "methodology_note": "Source: U.S. Department of Justice Civil Rights Division, 'Investigation of the City of Minneapolis and the Minneapolis Police Department,' June 16, 2023, pp. 30–52. DOJ analysed all MPD use-of-force incidents from 2010–2022. Key finding: Black individuals were subjected to force in 72% of incidents despite comprising approximately 19% of Minneapolis's population. White individuals accounted for approximately 18% of force incidents despite comprising 57% of the population. The DOJ found this disparity held across force type categories and persisted after controlling for crime rates.",
+      "chart_type": "bar",
+      "labels": [
+        "Black residents",
+        "White residents"
+      ],
+      "datasets": [
+        {
+          "label": "% of MPD force incidents (2010–2022)",
+          "data": [
+            72,
+            18
+          ],
+          "color": "#2A7DE1"
+        },
+        {
+          "label": "% of Minneapolis population",
+          "data": [
+            19,
+            57
+          ],
+          "color": "#E16B2A"
+        }
+      ]
+    },
+    {
+      "id": "dp003",
+      "title": "Chauvin Sentences: State vs. Federal (Concurrent)",
+      "description": "Derek Chauvin received two separate sentences — one from the state court, one from the federal court — which run concurrently (simultaneously). The effective maximum is the longer state sentence. Both courts cited the same underlying conduct.",
+      "data_source_url": "https://www.courtlistener.com/docket/59889186/united-states-v-chauvin/",
+      "methodology_note": "State sentence: 22.5 years (270 months), Hennepin County District Court, Judge Peter Cahill, June 25, 2021. Case 27-CR-20-12646. Sentence exceeded standard guidelines range of 128–180 months; aggravating factors cited. Federal sentence: 20 years 9 months (249 months), U.S. District Court for the District of Minnesota, December 2, 2021. Case 0:21-CR-00108. Chauvin pleaded guilty to deprivation of rights under color of law (18 U.S.C. §242). Sentences run concurrently — Chauvin serves one term, not both sequentially. Earliest possible release date approximately 2037.",
+      "chart_type": "bar",
+      "labels": [
+        "State sentence (months)",
+        "Federal sentence (months)"
+      ],
+      "datasets": [
+        {
+          "label": "Sentence length (months, concurrent)",
+          "data": [
+            270,
+            249
+          ],
+          "color": "#1A4A8A"
+        }
+      ]
+    }
+  ],
+  "resolution_note": "Derek Chauvin was convicted by a jury of all three criminal counts on April 20, 2021. He subsequently pleaded guilty to federal civil rights charges on December 15, 2021. Both the state conviction and federal guilty plea are final. The DOJ investigation into the Minneapolis Police Department's broader practices concluded in June 2023. The primary evidentiary record on the specific incident and its legal resolution is complete.",
+  "reopen_threshold": "This Fact File may be reopened if: (1) a new primary source document becomes publicly available that was previously sealed or unavailable; (2) an existing primary source in this evidence index is formally retracted, shown to be fabricated, or ruled inadmissible; (3) an appeal court overturns the criminal conviction on grounds that affect the factual record. New interpretations of existing evidence, academic re-analysis, or new secondary reporting do not constitute grounds for reopening.",
+  "verdict_date": "2021-04-20",
+  "is_draft": false,
+  "changelog": [
+    {
+      "id": "cl001",
+      "date": "2026-03-28",
+      "type": "addition",
+      "description": "Initial fact file published. 14 primary sources indexed from court record, medical examiner, and DOJ investigation."
+    },
+    {
+      "id": "cl002",
+      "date": "2026-03-29",
+      "type": "update",
+      "description": "Added DOJ civil rights investigation report (2023) and expanded timeline to cover appeals through 2024."
+    }
+  ]
+}
