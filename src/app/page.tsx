@@ -1,8 +1,13 @@
-import { getAllFactFiles } from '@/lib/content'
+import { getAllFactFiles, getAllFactFilesRaw, getTrendingFiles } from '@/lib/content'
 import { HomePageClient } from '@/components/HomePageClient'
+import Link from 'next/link'
 
 export default async function HomePage() {
-  const factFiles = await getAllFactFiles()
+  const [factFiles, fullFiles, trending] = await Promise.all([
+    getAllFactFiles(),
+    getAllFactFilesRaw(),
+    getTrendingFiles(5),
+  ])
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -23,8 +28,37 @@ export default async function HomePage() {
         <h2 className="font-semibold text-slate-800 text-sm">Priority Queue</h2>
       </div>
 
+      {/* Trending — only shown when we have view data */}
+      {trending.length > 0 && (
+        <div className="mb-8 bg-white border border-slate-200 rounded-xl p-5">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-base">🔥</span>
+            <h2 className="font-bold text-slate-800 text-sm tracking-tight">Trending now</h2>
+            <span className="text-xs text-slate-400 ml-auto">by views</span>
+          </div>
+          <ol className="space-y-2">
+            {trending.map((ff, i) => (
+              <li key={ff.slug}>
+                <Link
+                  href={`/fact/${ff.slug}`}
+                  className="flex items-center gap-3 group hover:bg-slate-50 rounded-lg px-2 py-1.5 -mx-2 transition-colors"
+                >
+                  <span className="text-xs font-mono text-slate-300 w-4 shrink-0">{i + 1}</span>
+                  <span className="flex-1 text-sm font-medium text-slate-800 group-hover:text-[#1A4A8A] truncate">
+                    {ff.title}
+                  </span>
+                  <span className="text-xs text-slate-400 shrink-0 font-mono">
+                    {ff.views.toLocaleString()} views
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
+
       {/* Search, filter, and topic grid — all client-side */}
-      <HomePageClient factFiles={factFiles} />
+      <HomePageClient factFiles={factFiles} fullFiles={fullFiles} />
 
       {/* FACTION principles */}
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4">

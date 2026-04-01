@@ -205,6 +205,22 @@ export async function getViewCounts(slugs: string[]): Promise<Record<string, num
   return counts
 }
 
+/**
+ * Returns the top N most-viewed fact files, sorted by view count descending.
+ * Falls back to an empty array if KV is not configured or has no data.
+ */
+export async function getTrendingFiles(limit = 5): Promise<Array<FactFileSummary & { views: number }>> {
+  const allFiles = await getAllFactFiles()
+  if (allFiles.length === 0) return []
+  const slugs = allFiles.map(f => f.slug)
+  const counts = await getViewCounts(slugs)
+  return allFiles
+    .map(f => ({ ...f, views: counts[f.slug] ?? 0 }))
+    .filter(f => f.views > 0)
+    .sort((a, b) => b.views - a.views)
+    .slice(0, limit)
+}
+
 export async function getLinkCheckResults(): Promise<LinkCheckSnapshot | null> {
   if (isKvConfigured()) {
     const raw = await kv.get('faction:link-check')

@@ -82,6 +82,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 <a href="/" className="text-slate-300 hover:text-white transition-colors hidden sm:block">
                   Topics
                 </a>
+                <a href="/timeline" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
+                  Timeline
+                </a>
                 <a href="/methodology" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
                   Methodology
                 </a>

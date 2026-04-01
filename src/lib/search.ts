@@ -15,7 +15,7 @@
  * This prevents noise from partial-query results.
  */
 
-import type { FactFileSummary, TopicStatus } from '@/types'
+import type { FactFile, FactFileSummary, TopicStatus } from '@/types'
 
 export type SortMode = 'relevance' | 'votes' | 'recent' | 'alpha'
 
@@ -38,7 +38,7 @@ function tokenise(text: string): string[] {
 
 // ─── Score a single fact file against a set of tokens ────────────────────────
 
-function scoreFile(ff: FactFileSummary, tokens: string[]): number {
+function scoreFile(ff: FactFileSummary, tokens: string[], fullFf?: FactFile): number {
   if (tokens.length === 0) return 1  // blank query → everything matches equally
 
   const fields = [
@@ -47,6 +47,11 @@ function scoreFile(ff: FactFileSummary, tokens: string[]): number {
     { text: ff.category.join(' ').toLowerCase(),             weight: 4  },
     { text: ff.summary.toLowerCase(),                        weight: 3  },
     { text: ff.status.toLowerCase(),                         weight: 2  },
+    // Full-text evidence search — lower weight, but still findable
+    ...(fullFf?.evidence ?? []).map(ev => ({
+      text: `${ev.title} ${ev.description} ${ev.issuing_authority}`.toLowerCase(),
+      weight: 2,
+    })),
   ]
 
   let totalScore = 0
@@ -87,8 +92,10 @@ export interface SearchResult {
 export function searchFactFiles(
   files: FactFileSummary[],
   options: SearchOptions,
+  fullFiles?: FactFile[],
 ): SearchResult[] {
   const tokens = tokenise(options.query)
+  const fullMap = new Map(fullFiles?.map(f => [f.slug, f]) ?? [])
 
   const results: SearchResult[] = files
     .filter(ff => {
@@ -101,7 +108,7 @@ export function searchFactFiles(
       }
       return true
     })
-    .map(ff => ({ ff, score: scoreFile(ff, tokens) }))
+    .map(ff => ({ ff, score: scoreFile(ff, tokens, fullMap.get(ff.slug)) }))
     .filter(r => r.score > 0)
 
   // Sort

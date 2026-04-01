@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useCallback } from 'react'
 import Link from 'next/link'
-import type { FactFileSummary, TopicStatus } from '@/types'
+import type { FactFile, FactFileSummary, TopicStatus } from '@/types'
 import type { SortMode } from '@/lib/search'
 import { searchFactFiles, extractCategories, highlightMatches } from '@/lib/search'
 import { StatusBadge } from './StatusBadge'
@@ -130,11 +130,13 @@ const STATUS_OPTIONS: { value: TopicStatus | 'all'; label: string }[] = [
 
 interface Props {
   factFiles: FactFileSummary[]
+  /** Full fact file data for deep evidence search */
+  fullFiles?: FactFile[]
   /** When true, shows the standalone search page layout (no hero callouts) */
   standalone?: boolean
 }
 
-export function HomePageClient({ factFiles, standalone = false }: Props) {
+export function HomePageClient({ factFiles, fullFiles, standalone = false }: Props) {
   const [query, setQuery]           = useState('')
   const [statusFilter, setStatus]   = useState<TopicStatus | 'all'>('all')
   const [activeCategory, setCategory] = useState<string | null>(null)
@@ -148,8 +150,8 @@ export function HomePageClient({ factFiles, standalone = false }: Props) {
   }, [])
 
   const results = useMemo(
-    () => searchFactFiles(factFiles, { query, status: statusFilter, category: activeCategory, sort }),
-    [factFiles, query, statusFilter, activeCategory, sort]
+    () => searchFactFiles(factFiles, { query, status: statusFilter, category: activeCategory, sort }, fullFiles),
+    [factFiles, fullFiles, query, statusFilter, activeCategory, sort]
   )
 
   const maxVotes = useMemo(

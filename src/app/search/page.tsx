@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { getAllFactFiles } from '@/lib/content'
+import { getAllFactFiles, getAllFactFilesRaw } from '@/lib/content'
 import { HomePageClient } from '@/components/HomePageClient'
 import Link from 'next/link'
 
@@ -9,7 +9,10 @@ export const metadata: Metadata = {
 }
 
 export default async function SearchPage() {
-  const factFiles = await getAllFactFiles()
+  const [factFiles, fullFiles] = await Promise.all([
+    getAllFactFiles(),
+    getAllFactFilesRaw(),
+  ])
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
@@ -24,12 +27,12 @@ export default async function SearchPage() {
           Search fact files
         </h1>
         <p className="text-slate-500 text-sm">
-          {factFiles.length} topic{factFiles.length !== 1 ? 's' : ''} indexed · fuzzy-match across titles, categories, and summaries
+          {factFiles.length} topic{factFiles.length !== 1 ? 's' : ''} indexed · searches titles, summaries, categories, and all evidence sources
         </p>
       </div>
 
       {/* Search + filter UI (autofocused in standalone mode) */}
-      <HomePageClient factFiles={factFiles} standalone />
+      <HomePageClient factFiles={factFiles} fullFiles={fullFiles} standalone />
     </div>
   )
 }

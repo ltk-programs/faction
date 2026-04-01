@@ -4,6 +4,7 @@ import { TierBadge } from './TierBadge'
 import { SourceTypeLabel } from './SourceTypeLabel'
 import { CiteButton } from './CiteButton'
 import { DocumentPreview } from './DocumentPreview'
+import { ShareEvidenceButton } from './ShareEvidenceButton'
 
 interface Props {
   evidence: Evidence
@@ -40,7 +41,10 @@ export function EvidenceCard({ evidence: e, index, verdictDate, slug, linkDead, 
   const mediaInfo = e.media_type ? MEDIA_ICONS[e.media_type] : null
 
   return (
-    <div className={`border rounded-lg p-4 bg-white transition-colors ${linkDead ? 'border-red-200 bg-red-50/30 hover:border-red-300' : 'border-slate-200 hover:border-blue-300'}`}>
+    <div
+      id={`ev-${e.id}`}
+      className={`border rounded-lg p-4 bg-white transition-all ${linkDead ? 'border-red-200 bg-red-50/30 hover:border-red-300' : 'border-slate-200 hover:border-blue-300'}`}
+    >
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap mb-1.5">
@@ -77,6 +81,7 @@ export function EvidenceCard({ evidence: e, index, verdictDate, slug, linkDead, 
               {e.title} ↗
             </a>
             <div className="shrink-0 flex items-center gap-1.5">
+              <ShareEvidenceButton evidenceId={e.id} />
               <CiteButton evidence={e} factFileTitle={factFileTitle} />
               {slug && (
                 <Link

@@ -14,6 +14,7 @@ import { FactChangelog } from '@/components/FactChangelog'
 import { ViewTracker } from '@/components/ViewTracker'
 import { SubscribeForm } from '@/components/SubscribeForm'
 import { ConfidenceMeter } from '@/components/ConfidenceMeter'
+import { HashScroller } from '@/components/HashScroller'
 
 export async function generateStaticParams() {
   // Only pre-render published (non-draft) fact files — draft slugs return notFound() anyway
@@ -140,6 +141,7 @@ export default async function FactFilePage({ params, searchParams }: {
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />
     <ViewTracker slug={slug} />
+    <HashScroller />
     <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Draft banner */}
       {ff.is_draft && (
@@ -169,7 +171,9 @@ export default async function FactFilePage({ params, searchParams }: {
             <div className="flex items-center gap-2 flex-wrap mb-3">
               <StatusBadge status={ff.status} />
               {ff.category.map(cat => (
-                <span key={cat} className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600">{cat}</span>
+                <Link key={cat} href={`/category/${encodeURIComponent(cat)}`} className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 hover:bg-[#EAF1FB] hover:text-[#1A4A8A] transition-colors">
+                  {cat}
+                </Link>
               ))}
             </div>
             <h1 className="text-2xl font-black text-[#0D1F3C] leading-tight">{ff.title}</h1>
