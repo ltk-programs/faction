@@ -9,6 +9,8 @@ import {
   addSubmission as saveSubmission,
   updateSubmissionStatus as persistSubmissionStatus,
 } from './content'
+import { getSubscribers } from './subscribers'
+import { sendUpdateNotification, isEmailConfigured } from './email'
 import type {
   FactFile, Evidence, TimelineEvent,
   ContestedClaim, DataPanel, SourceType, SourceTier,
@@ -495,6 +497,22 @@ export async function addChangelogEntry(slug: string, formData: FormData) {
   await saveFactFile(ff)
   revalidatePath(`/fact/${slug}`)
   revalidatePath(`/admin/${slug}`)
+
+  // Fire update notifications to subscribers (non-blocking)
+  if (isEmailConfigured()) {
+    getSubscribers(slug).then(subscribers => {
+      for (const email of subscribers) {
+        sendUpdateNotification({
+          to: email,
+          slug,
+          factFileTitle: ff.title,
+          changeDescription: entry.description,
+          changeType: entry.type,
+        }).catch(() => {}) // never let email errors break the action
+      }
+    }).catch(() => {})
+  }
+
   redirect(`/admin/${slug}`)
 }
 

@@ -12,6 +12,7 @@ import { VoteButton } from '@/components/VoteButton'
 import { RelatedFiles } from '@/components/RelatedFiles'
 import { FactChangelog } from '@/components/FactChangelog'
 import { ViewTracker } from '@/components/ViewTracker'
+import { SubscribeForm } from '@/components/SubscribeForm'
 
 export async function generateStaticParams() {
   // Only pre-render published (non-draft) fact files — draft slugs return notFound() anyway
@@ -318,6 +319,9 @@ export default async function FactFilePage({ params, searchParams }: {
       {ff.changelog && ff.changelog.length > 0 && (
         <FactChangelog entries={ff.changelog} />
       )}
+
+      {/* Subscribe */}
+      <SubscribeForm slug={ff.slug} factFileTitle={ff.title} />
 
       {/* Related files */}
       <RelatedFiles related={related} />
