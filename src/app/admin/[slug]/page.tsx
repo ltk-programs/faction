@@ -125,6 +125,16 @@ export default async function AdminFactFilePage({ params }: { params: Promise<{ 
             </div>
           )}
 
+          <div>
+            <label className="block text-xs font-semibold text-slate-500 mb-1">
+              Conflict of Interest Disclosure
+              <span className="text-slate-400 font-normal ml-1">— shown publicly on fact file page if set</span>
+            </label>
+            <textarea name="conflict_of_interest" defaultValue={ff.conflict_of_interest || ''} rows={2}
+              placeholder="e.g. One editorial reviewer has a family member employed by an organisation cited in this file."
+              className="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-[#2A7DE1] resize-y" />
+          </div>
+
           <button type="submit"
             className="px-4 py-2 bg-[#1A4A8A] text-white rounded-lg text-sm font-medium hover:bg-[#0D1F3C] transition-colors">
             Save changes

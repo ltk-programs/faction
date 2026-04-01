@@ -3,6 +3,7 @@ import type { Evidence, MediaType } from '@/types'
 import { TierBadge } from './TierBadge'
 import { SourceTypeLabel } from './SourceTypeLabel'
 import { CiteButton } from './CiteButton'
+import { DocumentPreview } from './DocumentPreview'
 
 interface Props {
   evidence: Evidence
@@ -13,6 +14,8 @@ interface Props {
   linkDead?: boolean | null
   /** Fact file title — used to build citations */
   factFileTitle?: string
+  /** Evidence IDs referenced in any contested claim on this fact file */
+  contestedIds?: Set<string>
 }
 
 const MEDIA_ICONS: Record<MediaType, { icon: string; label: string; classes: string }> = {
@@ -23,7 +26,8 @@ const MEDIA_ICONS: Record<MediaType, { icon: string; label: string; classes: str
   audio:    { icon: '🎙', label: 'Audio',    classes: 'bg-orange-50 text-orange-600 border-orange-200' },
 }
 
-export function EvidenceCard({ evidence: e, index, verdictDate, slug, linkDead, factFileTitle = '' }: Props) {
+export function EvidenceCard({ evidence: e, index, verdictDate, slug, linkDead, factFileTitle = '', contestedIds }: Props) {
+  const isContested = contestedIds?.has(e.id) ?? false
   // Pre/post verdict label
   let verdictLabel: { text: string; classes: string } | null = null
   if (verdictDate && e.date_issued) {
@@ -51,6 +55,11 @@ export function EvidenceCard({ evidence: e, index, verdictDate, slug, linkDead, 
             {verdictLabel && (
               <span className={`text-xs px-2 py-0.5 rounded border font-medium ${verdictLabel.classes}`}>
                 {verdictLabel.text}
+              </span>
+            )}
+            {isContested && (
+              <span className="text-xs px-2 py-0.5 rounded border font-medium bg-orange-50 text-orange-700 border-orange-200">
+                ⚡ Contested
               </span>
             )}
             {!e.verified && (
@@ -113,19 +122,38 @@ export function EvidenceCard({ evidence: e, index, verdictDate, slug, linkDead, 
               <span className="text-red-500 shrink-0 mt-0.5">⚠</span>
               <span className="text-red-700">
                 <strong className="font-semibold">Link may be unavailable.</strong>{' '}
-                Our last health check could not reach this URL.
-                The source document may have moved — try searching for the title directly or check{' '}
+                Our last health check could not reach this URL.{' '}
                 <a
-                  href={`https://web.archive.org/web/*/${e.url}`}
+                  href={e.archive_url ?? `https://web.archive.org/web/*/${e.url}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-red-900"
                 >
-                  the Wayback Machine
-                </a>.
+                  View archived copy →
+                </a>
               </span>
             </div>
           )}
+
+          {e.archive_url && linkDead !== true && (
+            <div className="mt-1.5">
+              <a
+                href={e.archive_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[11px] text-slate-400 hover:text-slate-600 hover:underline"
+              >
+                🗃 Archived copy
+              </a>
+            </div>
+          )}
+
+          <DocumentPreview
+            url={e.url}
+            archiveUrl={e.archive_url}
+            mediaType={e.media_type}
+            title={e.title}
+          />
         </div>
       </div>
     </div>

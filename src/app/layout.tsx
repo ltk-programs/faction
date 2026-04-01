@@ -108,6 +108,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   <a href="/methodology" className="hover:text-slate-600 transition-colors">Methodology</a>
                   <a href="/about" className="hover:text-slate-600 transition-colors">About</a>
                   <a href="/transparency" className="hover:text-slate-600 transition-colors">Transparency</a>
+                  <a href="/sources" className="hover:text-slate-600 transition-colors">Sources</a>
                   <a href="/submit" className="hover:text-slate-600 transition-colors">Submit a tip</a>
                   <a href="/rss.xml" className="hover:text-slate-600 transition-colors">RSS</a>
                 </nav>

@@ -43,6 +43,7 @@ export interface Evidence {
   added_date: string            // When added to FACTION
   verified: boolean             // Editorial team has confirmed source authenticity
   media_type?: MediaType        // Format of the source (document, video, etc.)
+  archive_url?: string          // Wayback Machine archive URL — set automatically on add
 }
 
 // ─── Submissions ──────────────────────────────────────────────────────────────
@@ -144,6 +145,7 @@ export interface FactFile {
   related_slugs?: string[]      // Manually curated related fact files (overrides auto-suggestions)
   changelog?: ChangelogEntry[]  // Transparent edit history — logged by editorial team
   is_draft?: boolean            // If true: hidden from public pages, accessible at /fact/[slug]?preview=true
+  conflict_of_interest?: string // Disclose any editorial conflicts — shown publicly on fact file page
 }
 
 // ─── Summary card (used on homepage + search index) ───────────────────────────

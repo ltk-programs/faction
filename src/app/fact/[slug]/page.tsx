@@ -13,6 +13,7 @@ import { RelatedFiles } from '@/components/RelatedFiles'
 import { FactChangelog } from '@/components/FactChangelog'
 import { ViewTracker } from '@/components/ViewTracker'
 import { SubscribeForm } from '@/components/SubscribeForm'
+import { ConfidenceMeter } from '@/components/ConfidenceMeter'
 
 export async function generateStaticParams() {
   // Only pre-render published (non-draft) fact files — draft slugs return notFound() anyway
@@ -76,6 +77,11 @@ export default async function FactFilePage({ params, searchParams }: {
 
   const tier1Count = ff.evidence.filter(e => e.tier === 1).length
   const tier3Count = ff.evidence.filter(e => e.tier === 3).length
+
+  // Build a Set of evidence IDs referenced in any contested claim
+  const contestedIds = new Set<string>(
+    ff.contested_claims.flatMap(c => [...c.side_a.evidence_ids, ...c.side_b.evidence_ids])
+  )
 
   // Build a Set of evidence IDs that failed the last link health check for this slug
   const linkSnapshot = await getLinkCheckResults()
@@ -173,6 +179,9 @@ export default async function FactFilePage({ params, searchParams }: {
           <VoteButton slug={ff.slug} initialVotes={ff.priority_votes} />
         </div>
 
+        {/* Confidence meter */}
+        <ConfidenceMeter ff={ff} />
+
         {/* Meta row */}
         <div className="mt-4 pt-4 border-t border-slate-100 flex items-center gap-4 text-xs text-slate-400 flex-wrap">
           <span>Created {new Date(ff.created_date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
@@ -189,9 +198,9 @@ export default async function FactFilePage({ params, searchParams }: {
             </>
           )}
           <div className="ml-auto flex items-center gap-3">
-            <Link href={`/fact/${ff.slug}/print`} target="_blank" className="text-slate-400 hover:text-slate-600 hover:underline">
+            <a href={`/fact/${ff.slug}/print`} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-600 hover:underline">
               🖨 Export PDF
-            </Link>
+            </a>
             <Link href={`/admin/${ff.slug}`} className="text-[#2A7DE1] hover:underline">
               Edit in Admin →
             </Link>
@@ -210,6 +219,16 @@ export default async function FactFilePage({ params, searchParams }: {
         <div className="bg-white border border-slate-200 rounded-xl p-5 mb-6">
           <div className="text-xs font-bold text-slate-500 uppercase tracking-wide mb-2">Situation Context</div>
           <p className="text-sm text-slate-600 leading-relaxed">{ff.situation_context}</p>
+        </div>
+      )}
+
+      {/* Conflict of interest disclosure */}
+      {ff.conflict_of_interest && (
+        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5 mb-6">
+          <div className="text-xs font-bold text-yellow-700 uppercase tracking-wide mb-1.5">
+            ⚠ Conflict of Interest Disclosure
+          </div>
+          <p className="text-sm text-yellow-800 leading-relaxed">{ff.conflict_of_interest}</p>
         </div>
       )}
 
@@ -274,8 +293,21 @@ export default async function FactFilePage({ params, searchParams }: {
                     )}
                   </div>
                   <div className="space-y-3">
+                    {contestedIds.size > 0 && (
+                      <div className="mb-4 flex items-start gap-2.5 bg-orange-50 border border-orange-200 rounded-xl px-4 py-3">
+                        <span className="text-orange-500 mt-0.5 shrink-0">⚡</span>
+                        <p className="text-xs text-orange-800 leading-relaxed">
+                          <strong className="font-semibold">Contested sources present.</strong>{' '}
+                          {contestedIds.size} source{contestedIds.size !== 1 ? 's' : ''} in this index are referenced in a factual dispute between primary sources.
+                          Cards marked <span className="font-semibold">⚡ Contested</span> are involved.{' '}
+                          <a href={`/fact/${slug}?tab=contested`} className="underline hover:text-orange-900">
+                            View contested claims →
+                          </a>
+                        </p>
+                      </div>
+                    )}
                     {ff.evidence.map((ev, i) => (
-                      <EvidenceCard key={ev.id} evidence={ev} index={i + 1} verdictDate={ff.verdict_date ?? undefined} slug={slug} linkDead={deadEvidenceIds.size > 0 ? deadEvidenceIds.has(ev.id) : null} factFileTitle={ff.title} />
+                      <EvidenceCard key={ev.id} evidence={ev} index={i + 1} verdictDate={ff.verdict_date ?? undefined} slug={slug} linkDead={deadEvidenceIds.size > 0 ? deadEvidenceIds.has(ev.id) : null} factFileTitle={ff.title} contestedIds={contestedIds} />
                     ))}
                   </div>
                 </div>

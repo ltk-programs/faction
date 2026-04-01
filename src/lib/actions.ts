@@ -87,6 +87,8 @@ export async function updateFactFileMeta(slug: string, formData: FormData) {
   if (ff.status === 'resolved') {
     ff.resolution_note = formData.get('resolution_note') as string
   }
+  const coi = (formData.get('conflict_of_interest') as string | null)?.trim()
+  ff.conflict_of_interest = coi || undefined
   ff.last_updated = today()
 
   await saveFactFile(ff)
@@ -95,22 +97,47 @@ export async function updateFactFileMeta(slug: string, formData: FormData) {
   revalidatePath('/')
 }
 
+// ─── Wayback Machine archive helper ───────────────────────────────────────────
+async function archiveUrl(url: string): Promise<string | undefined> {
+  try {
+    const res = await fetch(`https://web.archive.org/save/${url}`, {
+      method: 'POST',
+      headers: { 'User-Agent': 'FACTION-Archiver/1.0' },
+      signal: AbortSignal.timeout(12000),
+    })
+    // Wayback returns a Content-Location header with the archive URL
+    const location = res.headers.get('content-location')
+    if (location) return `https://web.archive.org${location}`
+    // Fallback: construct a likely archive URL
+    return `https://web.archive.org/web/*/${url}`
+  } catch {
+    // Non-blocking — never fail evidence addition because archiving failed
+    return `https://web.archive.org/web/*/${url}`
+  }
+}
+
 // ─── Add Evidence ──────────────────────────────────────────────────────────────
 export async function addEvidence(slug: string, formData: FormData) {
   const ff = await getFactFile(slug)
   if (!ff) throw new Error(`Fact file not found: ${slug}`)
+
+  const url = formData.get('url') as string
+
+  // Ping Wayback Machine to archive the source — non-blocking
+  const archive_url = await archiveUrl(url)
 
   const evidence: Evidence = {
     id: generateId(),
     title: formData.get('title') as string,
     source_type: formData.get('source_type') as SourceType,
     tier: Number(formData.get('tier')) as SourceTier,
-    url: formData.get('url') as string,
+    url,
     issuing_authority: formData.get('issuing_authority') as string,
     date_issued: formData.get('date_issued') as string,
     description: formData.get('description') as string,
     added_date: today(),
     verified: formData.get('verified') === 'true',
+    archive_url,
   }
 
   ff.evidence.push(evidence)
