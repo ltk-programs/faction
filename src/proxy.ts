@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { SESSION_COOKIE, verifySession } from '@/lib/auth'
 
-export async function middleware(req: NextRequest) {
+export async function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl
   if (pathname === '/admin/login' || pathname.startsWith('/api/auth/')) {
     return NextResponse.next()
