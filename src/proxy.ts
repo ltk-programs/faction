@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { SESSION_COOKIE, verifySession } from '@/lib/auth'
 
-export async function proxy(req: NextRequest) {
+export default async function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl
   if (pathname === '/admin/login' || pathname.startsWith('/api/auth/')) {
     return NextResponse.next()
@@ -17,7 +17,5 @@ export async function proxy(req: NextRequest) {
   }
   return NextResponse.next()
 }
-
-export default proxy
 
 export const config = { matcher: ['/admin/:path*'] }
