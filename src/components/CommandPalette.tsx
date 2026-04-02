@@ -136,11 +136,11 @@ function PaletteModal({
       onMouseDown={e => { if (e.target === e.currentTarget) onClose() }}
     >
       <div
-        className="w-full max-w-xl bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-200"
+        className="w-full max-w-xl bg-white dark:bg-slate-800 rounded-2xl shadow-2xl overflow-hidden border border-slate-200 dark:border-slate-700"
         onMouseDown={e => e.stopPropagation()}
       >
         {/* Input */}
-        <div className="flex items-center gap-3 px-4 py-3 border-b border-slate-100">
+        <div className="flex items-center gap-3 px-4 py-3 border-b border-slate-100 dark:border-slate-700">
           <span className="text-slate-400 text-base select-none">⌕</span>
           <input
             ref={inputRef}
@@ -149,11 +149,11 @@ function PaletteModal({
             onChange={e => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="Search fact files…"
-            className="flex-1 bg-transparent text-slate-900 text-sm placeholder:text-slate-400 focus:outline-none"
+            className="flex-1 bg-transparent text-slate-900 dark:text-slate-100 text-sm placeholder:text-slate-400 dark:placeholder:text-slate-500 focus:outline-none"
           />
           <kbd
             onClick={onClose}
-            className="text-xs text-slate-400 border border-slate-200 rounded px-1.5 py-0.5 font-mono cursor-pointer hover:bg-slate-50"
+            className="text-xs text-slate-400 border border-slate-200 dark:border-slate-600 rounded px-1.5 py-0.5 font-mono cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-700"
           >
             esc
           </kbd>
@@ -166,23 +166,25 @@ function PaletteModal({
               <li key={ff.slug}>
                 <button
                   className={`w-full text-left px-4 py-3 flex items-center gap-3 transition-colors ${
-                    idx === activeIndex ? 'bg-[#EFF6FF]' : 'hover:bg-slate-50'
+                    idx === activeIndex
+                      ? 'bg-[#EFF6FF] dark:bg-slate-700'
+                      : 'hover:bg-slate-50 dark:hover:bg-slate-700/50'
                   }`}
                   onClick={() => navigate(ff.slug)}
                   onMouseEnter={() => setActiveIndex(idx)}
                 >
                   <div className="flex-1 min-w-0">
-                    <div className="text-sm font-medium text-slate-900 truncate">
+                    <div className="text-sm font-medium text-slate-900 dark:text-slate-100 truncate">
                       <Hl text={ff.title} query={query} />
                     </div>
                     {ff.subtitle && (
-                      <div className="text-xs text-slate-500 truncate mt-0.5">
+                      <div className="text-xs text-slate-500 dark:text-slate-400 truncate mt-0.5">
                         <Hl text={ff.subtitle} query={query} />
                       </div>
                     )}
                     <div className="flex flex-wrap gap-1 mt-1">
                       {ff.category.slice(0, 3).map(cat => (
-                        <span key={cat} className="text-xs px-1.5 py-0.5 rounded-full bg-slate-100 text-slate-500">
+                        <span key={cat} className="text-xs px-1.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-600 text-slate-500 dark:text-slate-300">
                           {cat}
                         </span>
                       ))}
@@ -191,7 +193,7 @@ function PaletteModal({
                   <div className="shrink-0">
                     <StatusBadge status={ff.status} />
                   </div>
-                  <span className="text-slate-300 shrink-0">→</span>
+                  <span className="text-slate-300 dark:text-slate-500 shrink-0">→</span>
                 </button>
               </li>
             ))}
@@ -203,7 +205,7 @@ function PaletteModal({
         )}
 
         {/* Footer */}
-        <div className="flex items-center justify-between px-4 py-2 border-t border-slate-100 bg-slate-50 text-xs text-slate-400">
+        <div className="flex items-center justify-between px-4 py-2 border-t border-slate-100 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-xs text-slate-400">
           <div className="flex items-center gap-3">
             <span><kbd className="font-mono">↑↓</kbd> navigate</span>
             <span><kbd className="font-mono">↵</kbd> open</span>

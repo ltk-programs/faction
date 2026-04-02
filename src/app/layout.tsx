@@ -4,6 +4,9 @@ import { getAllFactFiles } from '@/lib/content'
 import { CommandPaletteProvider } from '@/components/CommandPalette'
 import { NavSearchButton } from '@/components/NavSearchButton'
 import { Analytics } from '@/components/Analytics'
+import { ThemeProvider } from '@/components/ThemeProvider'
+import { ThemeToggle } from '@/components/ThemeToggle'
+import { MobileNav } from '@/components/MobileNav'
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'http://localhost:3000'
 
@@ -59,67 +62,96 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const factFiles = await getAllFactFiles()
 
   return (
-    <html lang="en">
-      <body className="min-h-screen flex flex-col">
-        <CommandPaletteProvider factFiles={factFiles}>
-          {/* Skip to main content — keyboard / screen reader accessibility */}
-          <a
-            href="#main-content"
-            className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#2A7DE1] focus:text-white focus:rounded-lg focus:text-sm focus:font-semibold"
-          >
-            Skip to main content
-          </a>
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Prevent flash of wrong theme on load */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var stored = localStorage.getItem('faction-theme');
+                var system = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                var theme = stored || system;
+                if (theme === 'dark') document.documentElement.classList.add('dark');
+              })();
+            `,
+          }}
+        />
+      </head>
+      <body className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-200">
+        <ThemeProvider>
+          <CommandPaletteProvider factFiles={factFiles}>
+            {/* Skip to main content — keyboard / screen reader accessibility */}
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#2A7DE1] focus:text-white focus:rounded-lg focus:text-sm focus:font-semibold"
+            >
+              Skip to main content
+            </a>
 
-          {/* Global nav */}
-          <header className="bg-[#0D1F3C] text-white sticky top-0 z-40 border-b border-[#1A4A8A]" role="banner">
-            <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
-              <a href="/" className="flex items-center gap-2 font-bold text-lg tracking-tight" aria-label="FACTION home">
-                <span className="text-[#2A7DE1] font-black text-xl" aria-hidden="true">F</span>
-                <span>FACTION</span>
-              </a>
-
-              <nav className="flex items-center gap-3 text-sm" aria-label="Main navigation">
-                <a href="/" className="text-slate-300 hover:text-white transition-colors hidden sm:block">
-                  Topics
+            {/* Global nav */}
+            <header className="bg-[#0D1F3C] text-white sticky top-0 z-40 border-b border-[#1A4A8A]" role="banner">
+              <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
+                <a href="/" className="flex items-center gap-2 font-bold text-lg tracking-tight" aria-label="FACTION home">
+                  <span className="text-[#2A7DE1] font-black text-xl" aria-hidden="true">F</span>
+                  <span>FACTION</span>
                 </a>
-                <a href="/timeline" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
-                  Timeline
-                </a>
-                <a href="/methodology" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
-                  Methodology
-                </a>
-                <a href="/submit" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
-                  Submit
-                </a>
 
-                {/* Search button — opens Cmd+K palette */}
-                <NavSearchButton />
-              </nav>
-            </div>
-          </header>
+                <nav className="flex items-center gap-3 text-sm" aria-label="Main navigation">
+                  <a href="/" className="text-slate-300 hover:text-white transition-colors hidden sm:block">
+                    Topics
+                  </a>
+                  <a href="/timeline" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
+                    Timeline
+                  </a>
+                  <a href="/methodology" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
+                    Methodology
+                  </a>
+                  <a href="/submit" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
+                    Submit
+                  </a>
+                  <a href="/stats" className="text-slate-300 hover:text-white transition-colors hidden sm:block text-xs">
+                    Stats
+                  </a>
 
-          <main className="flex-1" id="main-content">
-            {children}
-          </main>
+                  {/* Theme toggle */}
+                  <ThemeToggle />
 
-          <footer className="mt-auto border-t border-slate-200 bg-white">
-            <div className="max-w-5xl mx-auto px-4 py-6 text-xs text-slate-400">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                <span className="font-medium text-slate-500">FACTION</span>
-                <nav className="flex flex-wrap items-center gap-x-5 gap-y-2" aria-label="Footer navigation">
-                  <a href="/search" className="hover:text-slate-600 transition-colors">Search</a>
-                  <a href="/methodology" className="hover:text-slate-600 transition-colors">Methodology</a>
-                  <a href="/about" className="hover:text-slate-600 transition-colors">About</a>
-                  <a href="/transparency" className="hover:text-slate-600 transition-colors">Transparency</a>
-                  <a href="/sources" className="hover:text-slate-600 transition-colors">Sources</a>
-                  <a href="/submit" className="hover:text-slate-600 transition-colors">Submit a tip</a>
-                  <a href="/rss.xml" className="hover:text-slate-600 transition-colors">RSS</a>
+                  {/* Search button — opens Cmd+K palette */}
+                  <NavSearchButton />
+
+                  {/* Mobile menu — only visible on small screens */}
+                  <MobileNav />
                 </nav>
               </div>
-              <p className="mt-3 text-slate-400">Primary sources only · No editorial interpretation · No advertising</p>
-            </div>
-          </footer>
-        </CommandPaletteProvider>
+            </header>
+
+            <main className="flex-1" id="main-content">
+              {children}
+            </main>
+
+            <footer className="mt-auto border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
+              <div className="max-w-5xl mx-auto px-4 py-6 text-xs text-slate-400 dark:text-slate-500">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                  <span className="font-medium text-slate-500 dark:text-slate-400">FACTION</span>
+                  <nav className="flex flex-wrap items-center gap-x-5 gap-y-2" aria-label="Footer navigation">
+                    <a href="/search" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Search</a>
+                    <a href="/stats" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Stats</a>
+                    <a href="/guide" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Guide</a>
+                    <a href="/glossary" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Glossary</a>
+                    <a href="/methodology" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Methodology</a>
+                    <a href="/about" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">About</a>
+                    <a href="/transparency" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Transparency</a>
+                    <a href="/sources" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Sources</a>
+                    <a href="/submit" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">Submit a tip</a>
+                    <a href="/rss.xml" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors">RSS</a>
+                  </nav>
+                </div>
+                <p className="mt-3 text-slate-400 dark:text-slate-600">Primary sources only · No editorial interpretation · No advertising</p>
+              </div>
+            </footer>
+          </CommandPaletteProvider>
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>

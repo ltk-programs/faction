@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getFactFile, getAllSlugs, getAllFactFilesRaw, getAllFactFiles, getLinkCheckResults } from '@/lib/content'
 import { getRelatedFiles } from '@/lib/related'
+import { estimateReadingTime } from '@/lib/readingTime'
 import { StatusBadge } from '@/components/StatusBadge'
 import { TierBadge } from '@/components/TierBadge'
 import { EvidenceCard } from '@/components/EvidenceCard'
@@ -15,6 +16,7 @@ import { ViewTracker } from '@/components/ViewTracker'
 import { SubscribeForm } from '@/components/SubscribeForm'
 import { ConfidenceMeter } from '@/components/ConfidenceMeter'
 import { HashScroller } from '@/components/HashScroller'
+import { ShareFactFileButton } from '@/components/ShareFactFileButton'
 
 export async function generateStaticParams() {
   // Only pre-render published (non-draft) fact files — draft slugs return notFound() anyway
@@ -78,6 +80,7 @@ export default async function FactFilePage({ params, searchParams }: {
 
   const tier1Count = ff.evidence.filter(e => e.tier === 1).length
   const tier3Count = ff.evidence.filter(e => e.tier === 3).length
+  const { label: readingTimeLabel } = estimateReadingTime(ff)
 
   // Build a Set of evidence IDs referenced in any contested claim
   const contestedIds = new Set<string>(
@@ -195,13 +198,16 @@ export default async function FactFilePage({ params, searchParams }: {
           <span>{ff.evidence.length} sources ({tier1Count} Tier 1, {tier3Count} Tier 3)</span>
           <span>·</span>
           <span>{ff.timeline.length} timeline events</span>
+          <span>·</span>
+          <span title="Estimated reading time for the full evidence index">{readingTimeLabel}</span>
           {ff.verdict_date && (
             <>
               <span>·</span>
               <span>Key verdict: {new Date(ff.verdict_date + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
             </>
           )}
-          <div className="ml-auto flex items-center gap-3">
+          <div className="ml-auto flex items-center gap-3 flex-wrap">
+            <ShareFactFileButton slug={ff.slug} title={ff.title} summary={ff.summary} />
             <a href={`/fact/${ff.slug}/print`} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-600 hover:underline">
               🖨 Export PDF
             </a>

@@ -57,15 +57,15 @@ function TopicCard({
   return (
     <Link
       href={`/fact/${ff.slug}`}
-      className="block border border-slate-200 rounded-xl bg-white hover:border-[#2A7DE1] hover:shadow-sm transition-all p-5 group"
+      className="block border border-slate-200 dark:border-slate-700 rounded-xl bg-white dark:bg-slate-800 hover:border-[#2A7DE1] hover:shadow-sm transition-all p-5 group"
     >
       <div className="flex items-start justify-between gap-3 mb-3">
         <div className="flex-1 min-w-0">
-          <h2 className="font-semibold text-slate-900 group-hover:text-[#1A4A8A] transition-colors leading-snug">
+          <h2 className="font-semibold text-slate-900 dark:text-slate-100 group-hover:text-[#1A4A8A] dark:group-hover:text-blue-400 transition-colors leading-snug">
             <Highlighted text={ff.title} query={query} />
           </h2>
           {ff.subtitle && (
-            <p className="text-sm text-slate-500 mt-0.5 truncate">
+            <p className="text-sm text-slate-500 dark:text-slate-400 mt-0.5 truncate">
               <Highlighted text={ff.subtitle} query={query} />
             </p>
           )}
@@ -75,7 +75,7 @@ function TopicCard({
 
       {/* Summary snippet (only when searching) */}
       {query && ff.summary && (
-        <p className="text-xs text-slate-500 mb-3 line-clamp-2 leading-relaxed">
+        <p className="text-xs text-slate-500 dark:text-slate-400 mb-3 line-clamp-2 leading-relaxed">
           <Highlighted text={ff.summary} query={query} />
         </p>
       )}
@@ -88,7 +88,7 @@ function TopicCard({
             className={`text-xs px-2 py-0.5 rounded-full transition-colors ${
               activeCategory === cat
                 ? 'bg-[#2A7DE1] text-white'
-                : 'bg-slate-100 text-slate-600 hover:bg-[#DBEAFE] hover:text-[#1A4A8A]'
+                : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:bg-[#DBEAFE] hover:text-[#1A4A8A]'
             }`}
           >
             {cat}
@@ -180,7 +180,7 @@ export function HomePageClient({ factFiles, fullFiles, standalone = false }: Pro
           value={query}
           onChange={e => { setQuery(e.target.value); if (sort === 'votes' && e.target.value) setSort('relevance') }}
           placeholder={standalone ? 'Search all fact files…' : 'Search topics, categories, summaries…'}
-          className="w-full pl-9 pr-16 py-2.5 text-sm border border-slate-200 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-[#2A7DE1] focus:border-transparent placeholder:text-slate-400 shadow-sm"
+          className="w-full pl-9 pr-16 py-2.5 text-sm border border-slate-200 dark:border-slate-600 rounded-xl bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-[#2A7DE1] focus:border-transparent placeholder:text-slate-400 dark:placeholder:text-slate-500 shadow-sm"
           autoFocus={standalone}
         />
         <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
@@ -209,7 +209,7 @@ export function HomePageClient({ factFiles, fullFiles, standalone = false }: Pro
               className={`text-xs px-3 py-1.5 rounded-lg border transition-colors ${
                 statusFilter === opt.value
                   ? 'bg-[#2A7DE1] text-white border-[#2A7DE1]'
-                  : 'bg-white text-slate-600 border-slate-200 hover:border-[#2A7DE1] hover:text-[#2A7DE1]'
+                  : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-600 hover:border-[#2A7DE1] hover:text-[#2A7DE1]'
               }`}
             >
               {opt.label}
@@ -227,8 +227,8 @@ export function HomePageClient({ factFiles, fullFiles, standalone = false }: Pro
               onClick={() => setSort(opt.value)}
               className={`text-xs px-2.5 py-1.5 rounded-lg border transition-colors ${
                 sort === opt.value
-                  ? 'bg-slate-800 text-white border-slate-800'
-                  : 'bg-white text-slate-500 border-slate-200 hover:border-slate-400 hover:text-slate-700'
+                  ? 'bg-slate-800 dark:bg-slate-200 text-white dark:text-slate-900 border-slate-800 dark:border-slate-200'
+                  : 'bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 border-slate-200 dark:border-slate-600 hover:border-slate-400 hover:text-slate-700 dark:hover:text-slate-200'
               }`}
             >
               {opt.label}
@@ -246,7 +246,7 @@ export function HomePageClient({ factFiles, fullFiles, standalone = false }: Pro
             className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${
               activeCategory === cat
                 ? 'bg-[#0D1F3C] text-white border-[#0D1F3C]'
-                : 'bg-white text-slate-500 border-slate-200 hover:border-slate-400'
+                : 'bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400 border-slate-200 dark:border-slate-600 hover:border-slate-400 dark:hover:border-slate-400'
             }`}
           >
             {cat}
@@ -289,8 +289,8 @@ export function HomePageClient({ factFiles, fullFiles, standalone = false }: Pro
 
       {/* ── Results grid ───────────────────────────────────────────────────── */}
       {results.length === 0 ? (
-        <div className="border border-dashed border-slate-300 rounded-xl p-12 text-center">
-          <p className="text-slate-400 text-sm mb-1">No topics match your search.</p>
+        <div className="border border-dashed border-slate-300 dark:border-slate-600 rounded-xl p-12 text-center">
+          <p className="text-slate-400 dark:text-slate-500 text-sm mb-1">No topics match your search.</p>
           {isFiltered && (
             <button onClick={clearAll} className="text-sm text-[#2A7DE1] hover:underline mt-1">
               Clear all filters

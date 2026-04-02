@@ -114,18 +114,18 @@ function parseBlocks(markdown: string): Block[] {
 function RenderBlock({ block, idx }: { block: Block; idx: number }) {
   switch (block.type) {
     case 'h1':
-      return <h1 className="text-3xl font-black text-[#0D1F3C] tracking-tight mt-2 mb-6">{parseInline(block.text)}</h1>
+      return <h1 className="text-3xl font-black text-[#0D1F3C] dark:text-slate-100 tracking-tight mt-2 mb-6">{parseInline(block.text)}</h1>
     case 'h2':
-      return <h2 className="text-xl font-bold text-slate-800 mt-10 mb-3 pt-6 border-t border-slate-100">{parseInline(block.text)}</h2>
+      return <h2 className="text-xl font-bold text-slate-800 dark:text-slate-200 mt-10 mb-3 pt-6 border-t border-slate-100 dark:border-slate-700">{parseInline(block.text)}</h2>
     case 'h3':
-      return <h3 className="text-base font-semibold text-slate-700 mt-6 mb-2">{parseInline(block.text)}</h3>
+      return <h3 className="text-base font-semibold text-slate-700 dark:text-slate-300 mt-6 mb-2">{parseInline(block.text)}</h3>
     case 'p':
-      return <p className="text-slate-600 leading-relaxed mb-4">{parseInline(block.text)}</p>
+      return <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">{parseInline(block.text)}</p>
     case 'ul':
       return (
         <ul className="list-disc list-outside ml-5 space-y-1.5 mb-4">
           {block.items.map((item, j) => (
-            <li key={j} className="text-slate-600 leading-relaxed">{parseInline(item)}</li>
+            <li key={j} className="text-slate-600 dark:text-slate-300 leading-relaxed">{parseInline(item)}</li>
           ))}
         </ul>
       )
@@ -133,15 +133,15 @@ function RenderBlock({ block, idx }: { block: Block; idx: number }) {
       return (
         <ol className="list-decimal list-outside ml-5 space-y-1.5 mb-4">
           {block.items.map((item, j) => (
-            <li key={j} className="text-slate-600 leading-relaxed">{parseInline(item)}</li>
+            <li key={j} className="text-slate-600 dark:text-slate-300 leading-relaxed">{parseInline(item)}</li>
           ))}
         </ol>
       )
     case 'hr':
-      return <hr key={idx} className="border-slate-200 my-8" />
+      return <hr key={idx} className="border-slate-200 dark:border-slate-700 my-8" />
     case 'blockquote':
       return (
-        <blockquote className="border-l-4 border-[#2A7DE1] pl-4 italic text-slate-500 my-4">
+        <blockquote className="border-l-4 border-[#2A7DE1] pl-4 italic text-slate-500 dark:text-slate-400 my-4">
           {parseInline(block.text)}
         </blockquote>
       )
@@ -170,11 +170,12 @@ export function ContentPage({ markdown, breadcrumb }: Props) {
         ))}
       </article>
 
-      <div className="mt-12 pt-6 border-t border-slate-200 flex flex-wrap gap-4 text-xs text-slate-400">
-        <Link href="/methodology" className="hover:text-slate-600 hover:underline">Methodology</Link>
-        <Link href="/about" className="hover:text-slate-600 hover:underline">About</Link>
-        <Link href="/transparency" className="hover:text-slate-600 hover:underline">Transparency</Link>
-        <Link href="/submit" className="hover:text-slate-600 hover:underline">Submit a tip</Link>
+      <div className="mt-12 pt-6 border-t border-slate-200 dark:border-slate-700 flex flex-wrap gap-4 text-xs text-slate-400 dark:text-slate-500">
+        <Link href="/methodology" className="hover:text-slate-600 dark:hover:text-slate-300 hover:underline">Methodology</Link>
+        <Link href="/about" className="hover:text-slate-600 dark:hover:text-slate-300 hover:underline">About</Link>
+        <Link href="/transparency" className="hover:text-slate-600 dark:hover:text-slate-300 hover:underline">Transparency</Link>
+        <Link href="/glossary" className="hover:text-slate-600 dark:hover:text-slate-300 hover:underline">Glossary</Link>
+        <Link href="/submit" className="hover:text-slate-600 dark:hover:text-slate-300 hover:underline">Submit a tip</Link>
       </div>
     </div>
   )
